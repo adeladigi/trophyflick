@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.card {
+    border-radius: 12px;
+    width: 200px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    background-color: cornsilk;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    margin-bottom: 5px;
+}
+
+
+.img-div {
+  min-width: 200px;
+  min-height: 112px;
+  background-position: center top;
+  background-size: cover;
+}
+
+h4 {
+  cursor: pointer;
+  color: #343A40;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 20px;
+}
+
+h4:hover {
+ color: #9FE6A0;
+}

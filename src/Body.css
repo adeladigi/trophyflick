@@ -1,0 +1,40 @@
+.body-div {
+    background-color: #000;
+    margin: auto;
+    border-radius: 12px;
+    display: grid;
+    
+    overflow-x:hidden;
+}
+
+
+@media (min-width: 768px){
+    
+    .body-div {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    overflow-x:hidden;    
+    }
+
+
+
+}
+
+
+@media (min-width: 1024px){
+    
+    .body-div {
+    grid-template-columns: 70% 30%;    
+    }
+
+
+
+}
+
+
+  
+
+
+
+
+
