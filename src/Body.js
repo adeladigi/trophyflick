@@ -45,7 +45,8 @@ function Body(props){
 
    async function getISS(movie){
 
-   let key = "&apikey=84519f3d";
+   let key = process.env.REACT_APP_MOVIE_KEY;
+   
 
       //declaring url structure
       const requestUrl = "http://www.omdbapi.com/?t="+movie+"&plot=full"+key;
