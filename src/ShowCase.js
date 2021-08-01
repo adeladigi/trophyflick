@@ -51,7 +51,7 @@ function ShowCase(props){
      
      
                <h2 id="movie-title">{currentMovie.title}</h2>
-               <div className="content-div">
+               <div className="content-div" >
                <p id="plot-text">{currentMovie.about}</p>
                </div>
                
