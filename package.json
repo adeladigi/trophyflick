@@ -2,6 +2,10 @@
   "name": "react-project-002",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "7.10.0",
+    "npm": "4.2.0"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",

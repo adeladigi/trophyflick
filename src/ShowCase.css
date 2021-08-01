@@ -174,7 +174,7 @@ iframe {
       }
 
     .info-div {
-        /* display: unset; */
+        display: unset;
         background-color: #000;
         height: 520px;
         width: 350px;
