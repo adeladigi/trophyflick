@@ -5,6 +5,11 @@ const recList = [
        about: "When a group of terrorists hijacks an overnight transatlantic flight, a mysteriously ill woman must unleash a monstrous secret to protect her young son.",
        trailer: "https://www.youtube.com/embed/U8M_1eyrBtQ"
     },
+    { img: "https://christhilk.files.wordpress.com/2010/09/buried-pic.jpg",
+      title: "Buried",
+      about: "A civilian truck driver in Iraq, Paul Conroy (Ryan Reynolds) falls victim to a band of insurgents. An unknown length of time later, Paul awakes in a coffin, with little more than a lighter, a cell phone, and his ever-growing anxiety. Faced with a dwindling oxygen supply and a dying battery, Paul must fight panic, despair and delirium as he awaits a rescue that might not arrive in time.",
+      trailer: "https://www.youtube.com/embed/d8KBYAvYpO4"
+    },
     { img: "https://images-na.ssl-images-amazon.com/images/I/81sACBsugfS._SL1500_.jpg",
     title: "A Quite Place Part 2",
     about: "Following the deadly events at home, the Abbott family must now face the terrors of the outside world as they continue their fight for survival in silence. Forced to venture into the unknown, they quickly realize that the creatures that hunt by sound are not the only threats that lurk beyond the sand path.",
@@ -79,6 +84,11 @@ const recList = [
       title: "The Endless",
       about: "Two brothers receive a cryptic video message inspiring them to revisit the UFO death cult they escaped a decade earlier. Hoping to find the closure that they couldn't find as young men, they're forced to reconsider the cult's beliefs when confronted with unexplainable phenomena surrounding the camp. As the members prepare for the coming of a mysterious event, the brothers race to unravel the seemingly impossible truth before their lives become permanently entangled with the cult.",
       trailer: "https://www.youtube.com/embed/reMwL8uYXps"
+    },
+    { img: "https://www.joblo.com/images_arrownews/cube1.jpg",
+      title: "Cube",
+      about: "Without remembering how they got there, several strangers awaken in a prison of cubic cells, some of them booby-trapped. There's onetime cop Quentin (Maurice Dean Wint), scientist Holloway (Nicky Guadagni), young math genius Leaven (Nicole de Boer), master of escapes Rennes (Wayne Robson), autistic savant Kazan (Andrew Miller) and architect Worth (David Hewlett), who might have more information on the maze than he lets on. The prisoners must use their combined skills if they are to escape.",
+      trailer: "https://www.youtube.com/embed/Esjc0rPj3K4"
     },
 
 ]
