@@ -50,9 +50,9 @@ function ShowCase(props){
                </div>
      
      
-               <h2>{currentMovie.title}</h2>
+               <h2 id="movie-title">{currentMovie.title}</h2>
                <div className="content-div">
-               <p>{currentMovie.about}</p>
+               <p id="plot-text">{currentMovie.about}</p>
                </div>
                
             </div>  
@@ -86,10 +86,10 @@ function ShowCase(props){
             <div className="trailer-div">
             <h4 onClick={changeState}>Watch Trailer</h4>
             </div>
-               <h2 >{currentMovie.title}</h2>
+               <h2 id="movie-title">{currentMovie.title}</h2>
                
                <div className="content-div">
-               <p>{currentMovie.about}</p>
+               <p id="plot-text">{currentMovie.about}</p>
                </div>
                
             </div>
@@ -110,7 +110,7 @@ function ShowCase(props){
                </div>
                <div className="award-box">
                   <h1>Awards</h1>
-                  <p>{props.cardInfo.awards}</p>
+                  <p >{props.cardInfo.awards}</p>
                </div>
                
             </div> 
