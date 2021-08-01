@@ -46,7 +46,7 @@ function ShowCase(props){
                </iframe>
 
                <div className="trailer-div">
-                  <h4 onClick={changeState}>Back</h4>
+                  <h4 id="trailer-btn" onClick={changeState}>Back</h4>
                </div>
      
      
@@ -84,7 +84,7 @@ function ShowCase(props){
             <div className="showcase-div" >
             <div className="showcase-img" style={{backgroundImage: "url("+currentMovie.img+")"}} ></div>
             <div className="trailer-div">
-            <h4 onClick={changeState}>Watch Trailer</h4>
+            <h4 id="trailer-btn" onClick={changeState}>Watch Trailer</h4>
             </div>
                <h2 id="movie-title">{currentMovie.title}</h2>
                

@@ -41,7 +41,7 @@
 }
 
  h2 {
-    color: #343A40;
+    color: #000;
     font-family: 'Bebas Neue', cursive;
     font-size: 25px;
     margin: 5px;
@@ -75,7 +75,7 @@ h4:hover {
     margin: auto;
     font-size: 20px; 
     font-family: 'Bebas Neue', cursive;
-    color: #343A40;
+    color: #000;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
@@ -83,7 +83,11 @@ h4:hover {
 
 #movie-title {
     font-family: 'Bebas Neue', cursive;
-    color: #343A40;
+    color: #000;
+}
+
+#trailer-btn {
+    color: #000;
 }
 
 iframe {
