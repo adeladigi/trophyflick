@@ -1,5 +1,15 @@
 
 const recList = [
+  { img: "https://variety.com/wp-content/uploads/2014/04/gone-girl-davide-finsher-ben-affleck.jpg?w=681&h=383&crop=1",
+  title: "Gone Girl",
+  about: "In Carthage, Mo., former New York-based writer Nick Dunne (Ben Affleck) and his glamorous wife Amy (Rosamund Pike) present a portrait of a blissful marriage to the public. However, when Amy goes missing on the couple's fifth wedding anniversary, Nick becomes the prime suspect in her disappearance. The resulting police pressure and media frenzy cause the Dunnes' image of a happy union to crumble, leading to tantalizing questions about who Nick and Amy truly are.",
+  trailer: "https://www.youtube.com/embed/0VGD_jLyE9Y"
+  },
+  { img: "https://cdn.onebauer.media/one/media/5f3a/ad17/1e87/c269/5e13/8fe6/memento-1.jpg?format=jpg&quality=80&width=960&height=540&ratio=16-9&resize=aspectfill",
+  title: "Memento",
+  about: "Leonard (Guy Pearce) is tracking down the man who raped and murdered his wife. The difficulty, however, of locating his wife's killer is compounded by the fact that he suffers from a rare, untreatable form of memory loss. Although he can recall details of life before his accident, Leonard cannot remember what happened fifteen minutes ago, where he's going, or why.",
+  trailer: "https://www.youtube.com/embed/4CV41hoyS8A"
+  },
     {  img: "https://www.indiewire.com/wp-content/uploads/2021/07/Blood-Red-Sky.jpeg",
        title: "Blood Red Sky",
        about: "When a group of terrorists hijacks an overnight transatlantic flight, a mysteriously ill woman must unleash a monstrous secret to protect her young son.",
