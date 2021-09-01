@@ -85,7 +85,7 @@ const recList = [
       about: "Two brothers receive a cryptic video message inspiring them to revisit the UFO death cult they escaped a decade earlier. Hoping to find the closure that they couldn't find as young men, they're forced to reconsider the cult's beliefs when confronted with unexplainable phenomena surrounding the camp. As the members prepare for the coming of a mysterious event, the brothers race to unravel the seemingly impossible truth before their lives become permanently entangled with the cult.",
       trailer: "https://www.youtube.com/embed/reMwL8uYXps"
     },
-    { img: "https://www.joblo.com/images_arrownews/cube1.jpg",
+    { img: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwheresthejump.com%2Fwp-content%2Fuploads%2F2015%2F09%2FCube-1.jpg&f=1&nofb=1",
       title: "Cube",
       about: "Without remembering how they got there, several strangers awaken in a prison of cubic cells, some of them booby-trapped. There's onetime cop Quentin (Maurice Dean Wint), scientist Holloway (Nicky Guadagni), young math genius Leaven (Nicole de Boer), master of escapes Rennes (Wayne Robson), autistic savant Kazan (Andrew Miller) and architect Worth (David Hewlett), who might have more information on the maze than he lets on. The prisoners must use their combined skills if they are to escape.",
       trailer: "https://www.youtube.com/embed/Esjc0rPj3K4"

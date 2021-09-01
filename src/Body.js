@@ -12,8 +12,6 @@ import SideMenu from "./SideMenu";
 
 function Body(props){
     
-
-
  const [newChosenMovie, setNewChosenMovie] = useState({
     img: props.content[0].img, 
     title: props.content[0].title, 
