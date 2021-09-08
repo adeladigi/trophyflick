@@ -1,6 +1,11 @@
 
 
   const movieData =[
+     { img: "https://cms-assets.theasc.com/The-Thin-Red-Line-Featured.jpeg?mtime=20210402110344",
+       title: "The Thin Red Line",
+       about: "In 1942, Private Witt (Jim Caviezel) is a U.S. Army absconder living peacefully with the locals of a small South Pacific island. Discovered by his commanding officer, Sgt. Welsh (Sean Penn), Witt is forced to resume his active duty training for the Battle of Guadalcanal. As Witt and his unit land on the island, and the American troops mount an assault on entrenched Japanese positions, the story explores their various fates and attitudes towards life-or-death situations.",
+       trailer: "https://www.youtube.com/embed/mKl5_OxKBn8"
+     },
     { img: "https://imgtoolkit.culturebase.org/?color=FFFFFF&quality=8&ar_ratio=1.3&format=jpg&file=http%3A%2F%2Fdata.heimat.de%2Fpics%2F3%2F6%2F9%2F3%2Fe%2Fpic_1505222298_3693e325e06cd1a4669d09ca2beba6a7.jpeg&do=cropOut&width=1200&height=585",
       title: "The Pianist",
       about: "In this adaptation of the autobiography The Pianist: The Extraordinary True Story of One Man's Survival in Warsaw, 1939-1945, Wladyslaw Szpilman (Adrien Brody), a Polish Jewish radio station pianist, sees Warsaw change gradually as World War II begins. Szpilman is forced into the Warsaw Ghetto, but is later separated from his family during Operation Reinhard. From this time until the concentration camp prisoners are released, Szpilman hides in various locations among the ruins of Warsaw.",
