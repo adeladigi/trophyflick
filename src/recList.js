@@ -1,6 +1,6 @@
 
 const recList = [
-   { img: "https://br.web.img3.acsta.net/r_1280_720/pictures/20/06/23/12/02/2271985.jpg",
+   { img: "https://br.web.img3.acsta.net/r_1280_720/pictures/20/06/23/12/04/3838441.jpg",
    title: "Coma",
    about: "A man awakens in a chaotic dystopian world filled with memories of comatose patients and nonexistent laws of physics.",
    trailer: "https://www.youtube.com/embed/QG7cWYyNN8I"
