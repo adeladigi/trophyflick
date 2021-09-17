@@ -1,6 +1,16 @@
 
 
   const movieData =[
+    { img: "https://static01.nyt.com/images/2014/10/31/multimedia/movies-ncrawler-103114/movies-ncrawler-103114-superJumbo.jpg",
+    title: "Nightcrawler",
+    about: "Los Angeles denizen Louis Bloom (Jake Gyllenhaal) survives by scavenging and petty theft. He stumbles into a new career as a cameraman and -- armed with a camcorder and police scanner -- begins nocturnal forays across the city in search of shocking and grisly crimes. When he catches the eye of a shopworn news director (Rene Russo) who welcomes the chance to raise her station's ratings, Louis goes to increasingly greater lengths to catch the money shot.",
+    trailer: "https://www.youtube.com/embed/u1uP_8VJkDQ"
+    },
+    { img: "http://static1.squarespace.com/static/551970ebe4b0ad84142f2d25/t/584510a915d5dbb70909abb3/1480921261011/?format=1500w",
+      title: "The Killing Room",
+      about: "Paul (Nick Cannon) and three others are accepted as test subjects by the mysterious Dr. Phillips (Peter Stormare). Initially, they are asked only to work on a survey -- but things take a sudden, violent turn when one of the subjects is executed. It's soon revealed that the remaining participants' lives depend on how they respond to various situations. But as the subjects' desperation grows, Phillips' colleague, psychologist Emily (Chloë Sevigny), debates ending the sick test.",
+      trailer: "https://www.youtube.com/embed/wqe1eCx6G4o"
+    },
      { img: "https://cms-assets.theasc.com/The-Thin-Red-Line-Featured.jpeg?mtime=20210402110344",
        title: "The Thin Red Line",
        about: "In 1942, Private Witt (Jim Caviezel) is a U.S. Army absconder living peacefully with the locals of a small South Pacific island. Discovered by his commanding officer, Sgt. Welsh (Sean Penn), Witt is forced to resume his active duty training for the Battle of Guadalcanal. As Witt and his unit land on the island, and the American troops mount an assault on entrenched Japanese positions, the story explores their various fates and attitudes towards life-or-death situations.",
