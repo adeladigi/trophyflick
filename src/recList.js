@@ -1,5 +1,10 @@
 
 const recList = [
+   { img: "https://br.web.img3.acsta.net/r_1280_720/pictures/20/06/23/12/02/2271985.jpg",
+   title: "Coma",
+   about: "A man awakens in a chaotic dystopian world filled with memories of comatose patients and nonexistent laws of physics.",
+   trailer: "https://www.youtube.com/embed/QG7cWYyNN8I"
+   },
    { img: "http://basementrejects.com/wp-content/uploads/2021/04/willys-wonderland-2021-creatures-nic-cage-review.jpg",
    title: "Willy's Wonderland",
    about: "When his car breaks down, a quiet loner agrees to clean an abandoned family fun center in exchange for repairs. He soon finds himself waging war against possessed animatronic mascots while trapped inside Willy's Wonderland.",
