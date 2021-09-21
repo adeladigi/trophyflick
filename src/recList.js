@@ -1,5 +1,10 @@
 
 const recList = [
+  { img: "https://www.cinematographe.it/wp-content/uploads/2021/07/Boss-Level-Film.jpg",
+  title: "Boss Level",
+  about: "A former special forces agent is trapped in a time loop and relives his death over and over again. To escape the terrible situation, he must track down those responsible and stop them.",
+  trailer: "https://www.youtube.com/embed/LfRCwf1VtBE"
+  },
    { img: "https://br.web.img3.acsta.net/r_1280_720/pictures/20/06/23/12/04/3838441.jpg",
    title: "Coma",
    about: "A man awakens in a chaotic dystopian world filled with memories of comatose patients and nonexistent laws of physics.",
