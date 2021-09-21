@@ -1,5 +1,10 @@
 
 const recList = [
+   { img: "https://nerdist.com/wp-content/uploads/2021/08/The-FInal-Girls-1.jpg",
+   title: "The Final Girls",
+   about: "Max, recently orphaned, goes to see a screening of a B-horror movie that her mother made 20 years earlier. When Max and her friends find themselves in the world of the film itself, they must apply their knowledge of horror tropes to survive.",
+   trailer: "https://www.youtube.com/embed/zreNh78kTjg"
+  },
   { img: "https://www.cinematographe.it/wp-content/uploads/2021/07/Boss-Level-Film.jpg",
   title: "Boss Level",
   about: "A former special forces agent is trapped in a time loop and relives his death over and over again. To escape the terrible situation, he must track down those responsible and stop them.",
