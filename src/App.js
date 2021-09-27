@@ -1,11 +1,14 @@
 import React, {useState} from "react";
 
-import movieData from "./movieData";
+
 //import recList from "./recList";
 import "./App.css";
 import NavBar from "./NavBar";
 import Body from "./Body";
+
+import movieData from "./movieData";
 import recList from "./recList";
+import articlesDB from "./articlesDB";
 
 
 
@@ -20,6 +23,8 @@ function App() {
  
   const [ chosenList, setChosenList] = useState(movieData);
   const [ emptyFlag, setSetEmptyFlag] = useState(false);
+  const [ articleFlag, setArticleFlag] = useState(false);
+  const [ firstInList, setFirstInList] = useState(articlesDB[0])
   //const [infoCard, setInfoCard] = useState(firstMovieObj);
   
   
@@ -102,15 +107,27 @@ function App() {
   }
 
 
+  function openArticles(){
+    setArticleFlag(true) 
+  }
+
+  function closeArticles(){
+    setArticleFlag(false) 
+  }
+
+  function handleNewFirst(newFirst){
+   setFirstInList(newFirst)
+  }
+
 
   return (
     <div>
 
-    <NavBar movieListFunc={mailSelectedList}/>
+    <NavBar articleFlag={articleFlag} openArticles={openArticles} closeArticles={closeArticles} movieListFunc={mailSelectedList} handleNewFirst={handleNewFirst} />
      <div className="input-div" >
       <input className="s-bar"  onInput={searchFunc}  type="text" placeholder="search" content="width=device-width, initial-scale=1, maximum-scale=1" />
      </div>
-    <Body content={chosenList} listTitle={listTitle} emptyFlag={emptyFlag}  />
+    <Body articleFlag={articleFlag} content={chosenList} listTitle={listTitle} emptyFlag={emptyFlag} firstInList={firstInList} />
 
     </div>
   );
@@ -118,12 +135,6 @@ function App() {
 
 export default App;
 
-
-
-
-// 1# must fix space
-
-// 2# add if none in list function
 
 
 

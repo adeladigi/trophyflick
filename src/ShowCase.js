@@ -9,8 +9,9 @@ let defaultState = false;
 function ShowCase(props){
    
    const [newState, setNewState] = useState(defaultState)
-   
 
+   let fatty = props.articleFlag;
+   
    let currentMovie = { 
       img: props.chosen.img,
       title: props.chosen.title,
@@ -29,7 +30,7 @@ function ShowCase(props){
       
    }
 
-    if(newState === true){
+    if(newState === true && fatty === false){
       return(
          <div className="main-section"> 
             <div className="showcase-div" >
@@ -72,16 +73,18 @@ function ShowCase(props){
                <div className="award-box">
                   <h1>Awards</h1>
                   <p>{props.cardInfo.awards}</p>
+
+
                </div>
                
             </div>
          </div>
         )
-    }else{
+    }else if(newState === false && fatty === false){
 
       return(
          <div className="main-section"> 
-            <div className="showcase-div" >
+            <div className="showcase-div">
             <div className="showcase-img" style={{backgroundImage: "url("+currentMovie.img+")"}} ></div>
             <div className="trailer-div">
             <h4 id="trailer-btn" onClick={changeState}>Watch Trailer</h4>
@@ -116,12 +119,56 @@ function ShowCase(props){
             </div> 
          </div>
         )
-    }
+    }else if(fatty === true){
 
+      return(
+
+         <div className="article-main-section">
+
+           <div className="page">
+              <div className="article-title-div">
+              <h3 id="article-title">{currentMovie.title}</h3>
+              </div>
+             
+
+             <img id="article-img" src={currentMovie.img} ></img>
+      
+             <p id="article-text">{currentMovie.about}</p>
+           </div> 
+          
+
+         </div>
+            
+                
+               
+        )
+
+    }
 
 }
 
 export default ShowCase;
+
+
+
+
+
+// return(
+
+//    <div className={fatty? "article-main-section" : "main-section"}> 
+//       <div className={fatty ? "showcase-article-div" : "showcase-div"}>
+//         <div className="showcase-img" style={{backgroundImage: "url("+currentMovie.img+")"}} ></div>
+     
+//           <h2 id={fatty ? "article-title" :"movie-title"}>{currentMovie.title}</h2>
+         
+//           <div className={fatty ? "article-content-div" : "content-div"}>
+//            <p id={fatty ? "article-text" :"plot-text"}>{currentMovie.about}</p>
+//           </div>
+         
+//       </div>
+
+//    </div>
+//   )
 
 
 

@@ -5,6 +5,8 @@ import "./Card.css";
 
 
 function Card(props){
+
+    let articleLight = props.articleFlag;
     
     let newSideMenuTitle = props.title;
 
@@ -14,7 +16,7 @@ function Card(props){
 
 
    return(
-             <div className="card">
+             <div className={articleLight ? "article-card" : "card"}>
              <div className="img-div" style={{backgroundImage: "url("+props.src+")"}}></div> 
              <h4 onClick={sendMovieUp}>{props.title}</h4>
             </div>  
