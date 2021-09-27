@@ -28,7 +28,7 @@ function Body(props){
       })
 
       getISS(props.content[0].title)
-    }, [props.firstInList]);
+    }, [props.firstInList, props.content[0].title ], );
 
 
 
