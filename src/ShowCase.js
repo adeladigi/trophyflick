@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 
 import "./ShowCase.css";
 
@@ -7,6 +7,7 @@ import "./ShowCase.css";
 let defaultState = false;
 
 function ShowCase(props){
+
    
    const [newState, setNewState] = useState(defaultState)
 
@@ -16,9 +17,12 @@ function ShowCase(props){
       img: props.chosen.img,
       title: props.chosen.title,
       about: props.chosen.about,
+      posted: props.chosen.posted,
+      auhtor: props.chosen.author,
       trailer: props.chosen.trailer
     } 
-
+    
+    
   
 
    function changeState(){
@@ -29,6 +33,7 @@ function ShowCase(props){
       }
       
    }
+
 
     if(newState === true && fatty === false){
       return(
@@ -129,8 +134,11 @@ function ShowCase(props){
               <div className="article-title-div">
               <h3 id="article-title">{currentMovie.title}</h3>
               </div>
-             
 
+              <div className="author-date-div">
+                <p className="author-info">BY {props.chosen.author}</p> <p id="post-date">{currentMovie.posted}</p>
+              </div>
+              
              <img id="article-img" src={currentMovie.img} ></img>
       
              <p id="article-text">{currentMovie.about}</p>
@@ -150,25 +158,6 @@ function ShowCase(props){
 export default ShowCase;
 
 
-
-
-
-// return(
-
-//    <div className={fatty? "article-main-section" : "main-section"}> 
-//       <div className={fatty ? "showcase-article-div" : "showcase-div"}>
-//         <div className="showcase-img" style={{backgroundImage: "url("+currentMovie.img+")"}} ></div>
-     
-//           <h2 id={fatty ? "article-title" :"movie-title"}>{currentMovie.title}</h2>
-         
-//           <div className={fatty ? "article-content-div" : "content-div"}>
-//            <p id={fatty ? "article-text" :"plot-text"}>{currentMovie.about}</p>
-//           </div>
-         
-//       </div>
-
-//    </div>
-//   )
 
 
 

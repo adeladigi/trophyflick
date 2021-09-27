@@ -13,22 +13,31 @@ function Body(props){
     img: props.content[0].img, 
     title: props.content[0].title, 
     about: props.content[0].about,
+    posted: props.content[0].posted,
+    author: props.content[0].author,
     trailer: props.content[0].trailer
    })
 
- 
-
-      
+   
    useEffect(() => {
+      //setting new chosen movie
       setNewChosenMovie({
          img: props.content[0].img, 
          title: props.content[0].title, 
          about: props.content[0].about,
+         posted: props.content[0].posted,
+         author: props.content[0].author,
          trailer: props.content[0].trailer
       })
-
+      // new api requset with new title
       getISS(props.content[0].title)
     }, [props.firstInList, props.content[0].title ], );
+
+
+   //  useEffect(() => {
+  
+  
+   //  }, [], );
 
 
 
@@ -112,11 +121,11 @@ function Body(props){
         }
  
   }
-
+ 
 
    return(
        <div className="body-div">
-          <ShowCase articleFlag={props.articleFlag} movie={props.content} chosen={newChosenMovie} cardInfo={dataCard} />
+          <ShowCase articleFlag={props.articleFlag} movie={props.content} chosen={newChosenMovie} cardInfo={dataCard}  />
           <SideMenu articleFlag={props.articleFlag} movie={props.content} mailFunc={iGotMail} listTitle={props.listTitle} emptyFlag={props.emptyFlag}  />
        </div>
    )

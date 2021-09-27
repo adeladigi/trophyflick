@@ -67,7 +67,7 @@ function App() {
   }
 
   
-
+// Search bar function
   function searchFunc(event){
      
     let searchText = event.target.value;
@@ -85,7 +85,6 @@ function App() {
 
       if(searchArray.length === 0){
         
-
         setSetEmptyFlag(true)
       }else if(searchText.length === 0){
 

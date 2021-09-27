@@ -8,6 +8,8 @@ function SideMenu(props){
    const dataList = props.movie;
    const EmptySearch = props.emptyFlag;
 
+   //console.log(dataList[0].author)
+
    function passingTitle(movieObj){
        props.mailFunc(movieObj)
    }
@@ -26,7 +28,7 @@ function SideMenu(props){
         <div className="menu-div">
             <h3>{props.listTitle}</h3>
             <p>{props.posted}</p>
-            {dataList.map(item => <Card key={item.title} src={item.img} title={item.title} about={item.about} trailer={item.trailer} choseFunc={passingTitle} articleFlag={props.articleFlag} />)}  
+            {dataList.map(item => <Card key={item.title} src={item.img} title={item.title} about={item.about} posted={item.posted} author={item.author} trailer={item.trailer} choseFunc={passingTitle} articleFlag={props.articleFlag} />)}  
         </div>
        )
 
