@@ -1,5 +1,10 @@
 
 const recList = [
+   { img: "https://d279m997dpfwgl.cloudfront.net/wp/2020/03/hunt-4-5e42fb34edb63-1.jpg",
+     title: "The Hunt",
+     about: "Twelve strangers wake up in a clearing. They don't know where they are -- or how they got there. In the shadow of a dark internet conspiracy theory, ruthless elitists gather at a remote location to hunt humans for sport. But their master plan is about to be derailed when one of the hunted, Crystal, turns the tables on her pursuers.",
+     trailer: "https://www.youtube.com/embed/sowGYbxTPgU"
+   },
    { img: "https://nerdist.com/wp-content/uploads/2021/08/The-FInal-Girls-1.jpg",
    title: "The Final Girls",
    about: "Max, recently orphaned, goes to see a screening of a B-horror movie that her mother made 20 years earlier. When Max and her friends find themselves in the world of the film itself, they must apply their knowledge of horror tropes to survive.",
