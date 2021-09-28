@@ -40,7 +40,7 @@ function NavItems(props){
       <div className="nav-items">
        <h1>TROPHY FLICK</h1>
        <div className="menu-list-div">
-       <h3 onClick={articleOn}>Articles</h3>  <h3 onClick={FavMoviesSelected}>Favorite</h3>  <h3 onClick={recMoviesSelected}>Recommmened</h3>
+       <h3 onClick={articleOn}>Articles</h3>  <h3 onClick={FavMoviesSelected}>Favorite</h3>  <h3 onClick={recMoviesSelected}>Recommended</h3>
        </div>
       </div>
     )
