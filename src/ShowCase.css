@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 /* paragrah font*/
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 
 ::-webkit-scrollbar {
     width: 7px;
@@ -10,7 +10,6 @@
 
 ::-webkit-scrollbar-track {
     background-color: cornsilk;
-
 }
 
 ::-webkit-scrollbar-thumb {
@@ -27,7 +26,6 @@
     height: 550px;
     background-color: #343A40;
 
-    
     border-radius: 12px;
 }
 
@@ -54,6 +52,7 @@
 .page p {
     max-width: 600px;
     padding: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 
@@ -138,7 +137,7 @@ h4:hover {
     max-width: 400px;
     margin: auto;
     font-size: 20px; 
-    font-family: 'Bebas Neue', cursive;
+   
     color: #F7F6F2;
     padding: 40px;
     padding-top: 0px;
@@ -156,7 +155,7 @@ h4:hover {
 }
 
 #article-title {
-    font-family: 'Bebas Neue', cursive;
+    
     color: #F7F6F2;
     margin: 20px;
     margin-top: 0px;
@@ -241,7 +240,7 @@ iframe {
     #article-text {
         margin: 0;
         font-size: 23px; 
-        font-family: 'Bebas Neue', cursive;
+        
         color: #F7F6F2;
         padding: 0px;
         padding-top: 0px;
@@ -306,7 +305,7 @@ iframe {
         max-width: 600px;
         margin: auto;
         font-size: 23px; 
-        font-family: 'Bebas Neue', cursive;
+        
         color: #F7F6F2;
         padding: 0px;
         padding-top: 0px;
@@ -347,7 +346,7 @@ iframe {
         max-width: 600px;
         margin: 0px;
         font-size: 23px; 
-        font-family: 'Bebas Neue', cursive;
+        
         color: #F7F6F2;
         padding: 0px;
         padding-top: 0px;

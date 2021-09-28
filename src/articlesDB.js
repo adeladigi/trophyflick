@@ -36,7 +36,6 @@ const articlesDB = [
 export default  articlesDB;
 
 
-
 // {
 //     img: "",
 //     title: "",
