@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 /* paragrah font*/
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 
 ::-webkit-scrollbar {
     width: 7px;
@@ -52,7 +52,7 @@
 .page p {
     max-width: 600px;
     padding: 20px;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 
@@ -239,7 +239,7 @@ iframe {
 
     #article-text {
         margin: 0;
-        font-size: 23px; 
+        font-size: 18px; 
         
         color: #F7F6F2;
         padding: 0px;
@@ -260,6 +260,9 @@ iframe {
 
 }
 
+
+
+/* there seems to be to  1024px @ media sections*/
 @media (min-width: 1024px){
     .showcase-div {
         width: 400px;
@@ -304,7 +307,7 @@ iframe {
     #article-text {
         max-width: 600px;
         margin: auto;
-        font-size: 23px; 
+        font-size: 17px; 
         
         color: #F7F6F2;
         padding: 0px;
@@ -317,7 +320,7 @@ iframe {
 
 }
 
-
+/* Second 1024px @ media section*/
 @media (min-width: 1024px){
 
     .showcase-div {
@@ -345,7 +348,7 @@ iframe {
     #article-text {
         max-width: 600px;
         margin: 0px;
-        font-size: 23px; 
+        font-size: 20px; 
         
         color: #F7F6F2;
         padding: 0px;
