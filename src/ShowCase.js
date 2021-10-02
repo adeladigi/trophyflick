@@ -35,6 +35,22 @@ function ShowCase(props){
    }
 
 
+   function createParagraph(paragraph){
+
+         return(
+            <div>
+                <p id="article-text">{paragraph[0]}</p>
+                <p id="article-text">{paragraph[1]}</p>
+                <p id="article-text">{paragraph[2]}</p>
+                <p id="article-text">{paragraph[3]}</p>
+                <p id="article-text">{paragraph[4]}</p>
+                <p id="article-text">{paragraph[5]}</p>
+            </div>
+            
+         )
+   }
+
+
     if(newState === true && fatty === false){
       return(
          <div className="main-section"> 
@@ -131,17 +147,19 @@ function ShowCase(props){
          <div className="article-main-section">
 
            <div className="page">
+
               <div className="article-title-div">
-              <h3 id="article-title">{currentMovie.title}</h3>
+                <h3 id="article-title">{currentMovie.title}</h3>
               </div>
 
               <div className="author-date-div">
                 <p className="author-info">BY {props.chosen.author}</p> <p id="post-date">{currentMovie.posted}</p>
               </div>
               
-             <img id="article-img" src={currentMovie.img} ></img>
-      
-             <p id="article-text">{currentMovie.about}</p>
+                <img id="article-img" src={currentMovie.img}></img>
+                
+                {createParagraph(currentMovie.about)}
+
            </div> 
           
 

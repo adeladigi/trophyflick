@@ -1,6 +1,7 @@
 
 const recList = [
-   { img: "https://d279m997dpfwgl.cloudfront.net/wp/2020/03/hunt-4-5e42fb34edb63-1.jpg",
+   {
+     img: "https://d279m997dpfwgl.cloudfront.net/wp/2020/03/hunt-4-5e42fb34edb63-1.jpg",
      title: "The Hunt",
      about: "Twelve strangers wake up in a clearing. They don't know where they are -- or how they got there. In the shadow of a dark internet conspiracy theory, ruthless elitists gather at a remote location to hunt humans for sport. But their master plan is about to be derailed when one of the hunted, Crystal, turns the tables on her pursuers.",
      trailer: "https://www.youtube.com/embed/sowGYbxTPgU"
