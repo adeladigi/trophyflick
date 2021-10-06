@@ -18,7 +18,6 @@
 }
 
 .menu-list-div {
-    color: cornsilk;
     display: flex;  
     flex-direction: row;
     justify-content: space-around;
@@ -29,6 +28,7 @@
     margin-right: 10px;
     margin-left: 10px;
     cursor: pointer;
+    color:cornsilk;
 }
 
 .menu-list-div h3:hover {

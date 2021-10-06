@@ -1,6 +1,11 @@
 
 
   const movieData =[
+    { img: "https://americanprofile.com/wp-content/uploads/2013/04/oblivion_7.jpg",
+      title: "Oblivion",
+      about: "In the year 2077, Jack Harper (Tom Cruise) works as a security repairman on an Earth left empty and devastated after a war with aliens. Jack has two weeks left before his mission ends and he joins his fellow survivors on a faraway colony. However, Jack's concept of reality comes crashing down after he rescues a beautiful stranger (Olga Kurylenko) from a downed spacecraft. The woman's arrival triggers a chain of events that culminates in Jack's nearly single-handed battle to save mankind.",
+      trailer: "https://www.youtube.com/embed/XmIIgE7eSak"
+    },
     { img: "https://static01.nyt.com/images/2014/10/31/multimedia/movies-ncrawler-103114/movies-ncrawler-103114-superJumbo.jpg",
     title: "Nightcrawler",
     about: "Los Angeles denizen Louis Bloom (Jake Gyllenhaal) survives by scavenging and petty theft. He stumbles into a new career as a cameraman and -- armed with a camcorder and police scanner -- begins nocturnal forays across the city in search of shocking and grisly crimes. When he catches the eye of a shopworn news director (Rene Russo) who welcomes the chance to raise her station's ratings, Louis goes to increasingly greater lengths to catch the money shot.",

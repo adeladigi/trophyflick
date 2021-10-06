@@ -35,16 +35,26 @@ function ShowCase(props){
    }
 
 
-   function createParagraph(paragraph){
-
+   function createParagraph(articleOBJ){
+      console.log(articleOBJ[0])
          return(
             <div>
-                <p id="article-text">{paragraph[0]}</p>
-                <p id="article-text">{paragraph[1]}</p>
-                <p id="article-text">{paragraph[2]}</p>
-                <p id="article-text">{paragraph[3]}</p>
-                <p id="article-text">{paragraph[4]}</p>
-                <p id="article-text">{paragraph[5]}</p>
+
+             <h3 id="article-title">{articleOBJ[0].title}</h3>
+             <p id="article-text">{articleOBJ[0].paragraph}</p>
+
+             <h3 id="article-title">{articleOBJ[1].title}</h3>
+             <p id="article-text">{articleOBJ[1].paragraph}</p>
+
+             <h3 id="article-title">{articleOBJ[2].title}</h3>
+             <p id="article-text">{articleOBJ[2].paragraph}</p>
+
+             <h3 id="article-title">{articleOBJ[3].title}</h3>
+             <p id="article-text">{articleOBJ[3].paragraph}</p>
+
+             <h3 id="article-title">{articleOBJ[4].title}</h3>
+             <p id="article-text">{articleOBJ[4].paragraph}</p>
+
             </div>
             
          )

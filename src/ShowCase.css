@@ -67,6 +67,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #fff;
 }
 
 
@@ -133,17 +134,18 @@ h4:hover {
     padding-bottom: 10px;
 }
 
+/* color:#E1E8EB; */
+
 #article-text {
     max-width: 400px;
     margin: auto;
     font-size: 20px; 
-   
     color: #F7F6F2;
     padding: 40px;
     padding-top: 0px;
     letter-spacing: 1px;
-    
 }
+
 
 #movie-title {
     font-family: 'Bebas Neue', cursive;
@@ -155,7 +157,6 @@ h4:hover {
 }
 
 #article-title {
-    
     color: #F7F6F2;
     margin: 20px;
     margin-top: 0px;
@@ -166,6 +167,10 @@ h4:hover {
     color: #000;
 }
 
+#trailer-btn:hover {
+    color:  #9FE6A0
+}
+
 iframe {
     margin: 15px;
     height: 200px;
@@ -174,7 +179,7 @@ iframe {
 
 .trailer-div {
     display: flex;
-
+    color: darkred;
 }
 
 .info-div {
@@ -240,7 +245,6 @@ iframe {
     #article-text {
         margin: 0;
         font-size: 18px; 
-        
         color: #F7F6F2;
         padding: 0px;
         padding-top: 0px;

@@ -8,6 +8,7 @@ import SideMenu from "./SideMenu";
 
 function Body(props){
    // place object from top of the list.
+   
 
  const [newChosenMovie, setNewChosenMovie] = useState({
     img: props.content[0].img, 
