@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import React, {useState} from "react";
 
 import "./ShowCase.css";
 
@@ -35,25 +35,25 @@ function ShowCase(props){
    }
 
 
-   function createParagraph(articleOBJ){
-      console.log(articleOBJ[0])
+   function createParagraph(paragraph){
+      
          return(
             <div>
 
-             <h3 id="article-title">{articleOBJ[0].title}</h3>
-             <p id="article-text">{articleOBJ[0].paragraph}</p>
+             <h3 id="article-title">plot</h3>
+             <p id="article-text">{paragraph[0].paragraph}</p>
 
-             <h3 id="article-title">{articleOBJ[1].title}</h3>
-             <p id="article-text">{articleOBJ[1].paragraph}</p>
+             <h3 id="article-title">cast</h3>
+             <p id="article-text">{paragraph[1].paragraph}</p>
 
-             <h3 id="article-title">{articleOBJ[2].title}</h3>
-             <p id="article-text">{articleOBJ[2].paragraph}</p>
+             <h3 id="article-title">the good</h3>
+             <p id="article-text">{paragraph[2].paragraph}</p>
 
-             <h3 id="article-title">{articleOBJ[3].title}</h3>
-             <p id="article-text">{articleOBJ[3].paragraph}</p>
+             <h3 id="article-title">the bood</h3>
+             <p id="article-text">{paragraph[3].paragraph}</p>
 
-             <h3 id="article-title">{articleOBJ[4].title}</h3>
-             <p id="article-text">{articleOBJ[4].paragraph}</p>
+             <h3 id="article-title">verdict</h3>
+             <p id="article-text">{paragraph[4].paragraph}</p>
 
             </div>
             
