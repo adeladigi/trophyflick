@@ -6,7 +6,7 @@ const articlesDB = [
         title: "The Final Girls : Movie Review",
         about: [
                 "Taissa Farmiga stars in The Final Girls  a comedic rift of Friday the 13th dircected by Todd Strauss Schulson. The movie is about a about teen girl named Max played by (Taissa Farmiga),  Who's mother a struggling actress  played by (Malin Akerman) tragically die's in a car accident.  3 years after her mother's  death Max and her friends are in a theater watching a Camp Blood Bath a 80's horror movie her late mother stared in. While watching the movie a fire occurres, with no way to escape other then going through the screen, Max and her friends cut a pathway into the screen only to end up in the movie themselves.",
-                "",
+                "I think they chose a perfect cast in order to bring a fun atmosphere to the movie. ",
                 "",
                 "",
                 "",
