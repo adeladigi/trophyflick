@@ -40,19 +40,19 @@ function ShowCase(props){
          return(
             <div>
 
-             <h3 id="article-title">plot</h3>
+             <h3 id="article-title-mini">plot</h3>
              <p id="article-text">{paragraph[0]}</p>
 
-             <h3 id="article-title">cast</h3>
+             <h3 id="article-title-mini">cast</h3>
              <p id="article-text">{paragraph[1]}</p>
 
-             <h3 id="article-title">the good</h3>
+             <h3 id="article-title-mini">the good</h3>
              <p id="article-text">{paragraph[2]}</p>
 
-             <h3 id="article-title">the bood</h3>
+             <h3 id="article-title-mini">the bood</h3>
              <p id="article-text">{paragraph[3]}</p>
 
-             <h3 id="article-title">verdict</h3>
+             <h3 id="article-title-mini">verdict</h3>
              <p id="article-text">{paragraph[4]}</p>
 
             </div>

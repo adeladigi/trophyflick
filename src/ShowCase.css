@@ -163,6 +163,15 @@ h4:hover {
     font-size: 35px;
 }
 
+#article-title-mini {
+    color: #F7F6F2;
+    margin: 20px;
+    margin-top: 0px;
+    font-size: 25px;
+    padding-left: 21px;
+    letter-spacing: 2px;
+}
+
 #trailer-btn {
     color: #000;
 }
@@ -261,6 +270,14 @@ iframe {
         padding-left: 0px;
     }
 
+    #article-title-mini {
+        color: #F7F6F2;
+        margin: 20px;
+        margin-top: 0px;
+        font-size: 25px;
+        padding: 0px;
+    }
+
 
 }
 
@@ -306,6 +323,10 @@ iframe {
         margin: 20px;
         margin-top: 0px;
         font-size: 35px;
+    }
+
+    #article-title-mini {
+        font-size: 27px;
     }
 
     #article-text {
