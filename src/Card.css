@@ -58,6 +58,13 @@ h4:hover {
   cursor: pointer;
 }
 
+.article-card p {
+  color: #FA8072;
+  font-size: 10px;
+  margin: 0;
+  padding: 0px;
+}
+
 
 @media (min-width: 768px){
 

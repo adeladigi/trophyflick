@@ -12,7 +12,7 @@ const articlesDB = [
                 "",
                ],
               
-        posted: "10/2/2021",
+        posted: "10/6/2021",
         author: "JONATHAN DECEMBER"
     },
 

@@ -22,6 +22,7 @@ function Card(props){
              <div className={articleLight ? "article-card" : "card"}>
              <div className="img-div" style={{backgroundImage: "url("+props.src+")"}}></div> 
              <h4 onClick={sendMovieUp}>{props.title}</h4>
+             <p>{props.posted}</p>
             </div>  
    )
 }
