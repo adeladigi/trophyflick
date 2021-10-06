@@ -70,15 +70,23 @@ h4:hover {
 
 .article-card p {
   color: #FA8072;
-  font-size: 10px;
+  font-size: 15px;
   margin: 0;
   padding: 0px;
+  padding-right: 4px;
+  font-family: 'Bebas Neue', cursive;
 }
 
 
-.posted-div {
+.posted-movie-div {
   display: flex;
   flex-direction: row;
+}
+
+.posted-article-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
 .posted-div p{
@@ -100,6 +108,10 @@ h4:hover {
     margin: 0px;
     font-size: 15px;
     font-family: 'Bebas Neue', cursive;
+  }
+
+  .article-card h4 {
+    padding-left: 4px;
   }
 
 
