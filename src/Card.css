@@ -6,6 +6,7 @@
     padding: 15px;
     display: flex;
     justify-content: center;
+    align-items: flex-end;
     background-color: cornsilk;
     display: flex;
     flex-direction: column;
@@ -26,6 +27,15 @@ h4 {
   color: #000;
   font-family: 'Bebas Neue', cursive;
   font-size: 20px;
+}
+
+.card h4 {
+  cursor: pointer;
+  color: #000;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 20px;
+  display: block;
+  min-height: 50px;
 }
 
 h4:hover {
@@ -66,11 +76,33 @@ h4:hover {
 }
 
 
+.posted-div {
+  display: flex;
+  flex-direction: row;
+}
+
+.posted-div p{
+  margin: 0px;
+  margin-right: 4px;
+  padding: 0px;
+  font-size: 15px;
+  font-family: 'Bebas Neue', cursive;
+  color: #3D56B2;
+  font-weight: 700;
+}
+
+
 @media (min-width: 768px){
 
   .article-card {
     width: 240px;
+    padding: 0px;
+    margin: 0px;
+    font-size: 15px;
+    font-family: 'Bebas Neue', cursive;
   }
+
+
 
 
 }
