@@ -31,17 +31,17 @@
        trailer: "https://www.youtube.com/embed/mKl5_OxKBn8",
        posted: "9/5/2021"
      },
+     { img: "https://ramblingsofacinephile.files.wordpress.com/2014/03/blood-story.jpg",
+       title: "Let Me In",
+       about: "Bullied at school, neglected at home and incredibly lonely, 12-year-old Owen (Kodi Smit-McPhee) spends his days plotting revenge on his tormentors and spends his nights spying on other residents of the apartment complex. His sole friend is Abby (Chloë Grace Moretz), a strange girl who comes out only at nighttime. Both outcasts, the two form a strong bond. When Abby's caretaker disappears amid a series of gruesome murders, Owen begins to suspect that she is hiding a terrible secret.",
+       trailer: "https://www.youtube.com/embed/x3guLR8aBpU",
+       posted: "8/30/2021"
+     },
     { img: "https://imgtoolkit.culturebase.org/?color=FFFFFF&quality=8&ar_ratio=1.3&format=jpg&file=http%3A%2F%2Fdata.heimat.de%2Fpics%2F3%2F6%2F9%2F3%2Fe%2Fpic_1505222298_3693e325e06cd1a4669d09ca2beba6a7.jpeg&do=cropOut&width=1200&height=585",
       title: "The Pianist",
       about: "In this adaptation of the autobiography The Pianist: The Extraordinary True Story of One Man's Survival in Warsaw, 1939-1945, Wladyslaw Szpilman (Adrien Brody), a Polish Jewish radio station pianist, sees Warsaw change gradually as World War II begins. Szpilman is forced into the Warsaw Ghetto, but is later separated from his family during Operation Reinhard. From this time until the concentration camp prisoners are released, Szpilman hides in various locations among the ruins of Warsaw.",
       trailer: "https://www.youtube.com/embed/BFwGqLa_oAo",
-      posted: "8/25/2021"
-    },
-    { img: "https://ramblingsofacinephile.files.wordpress.com/2014/03/blood-story.jpg",
-      title: "Let Me In",
-      about: "Bullied at school, neglected at home and incredibly lonely, 12-year-old Owen (Kodi Smit-McPhee) spends his days plotting revenge on his tormentors and spends his nights spying on other residents of the apartment complex. His sole friend is Abby (Chloë Grace Moretz), a strange girl who comes out only at nighttime. Both outcasts, the two form a strong bond. When Abby's caretaker disappears amid a series of gruesome murders, Owen begins to suspect that she is hiding a terrible secret.",
-      trailer: "https://www.youtube.com/embed/x3guLR8aBpU",
-      posted: "8/25/2021"
+      posted: "8/5/2021"
     },
     { img: "https://theplaylist.net/wp-content/uploads/2018/04/Edge-of-Tomorrow-Tom-Cruise-Emily-Blunt-sequel.jpg",
       title: "Edge Of Tomorrow",
