@@ -229,6 +229,7 @@ iframe {
     font-family: 'Bebas Neue', cursive;
     color: #22577A;
     margin-right: 8px;
+
 }
 
 
@@ -291,6 +292,8 @@ iframe {
         font-size: 25px;
         padding: 0px;
     }
+
+ 
 
 
 }
@@ -356,6 +359,9 @@ iframe {
         letter-spacing: 1px;
     }
 
+    .posted-ggg-div {
+        margin-top: 8px;
+    }
 
  
 
