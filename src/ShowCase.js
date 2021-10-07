@@ -17,6 +17,7 @@ function ShowCase(props){
       img: props.chosen.img,
       title: props.chosen.title,
       about: props.chosen.about,
+      headings: props.chosen.headings,
       posted: props.chosen.posted,
       auhtor: props.chosen.author,
       trailer: props.chosen.trailer
@@ -36,7 +37,8 @@ function ShowCase(props){
 
 
    function createParagraph(paragraph){
-      
+
+      //<h3 id="article-title-mini">{props.chosen.headings[0]}</h3>
          return(
             <div>
 
@@ -79,6 +81,10 @@ function ShowCase(props){
 
                <div className="trailer-div">
                   <h4 id="trailer-btn" onClick={changeState}>Back</h4>
+                  <div className="posted-ggg-div">
+                  <p>posted</p><p>{currentMovie.posted}</p>
+                  </div>
+                  
                </div>
      
      
@@ -119,6 +125,9 @@ function ShowCase(props){
             <div className="showcase-img" style={{backgroundImage: "url("+currentMovie.img+")"}} ></div>
             <div className="trailer-div">
             <h4 id="trailer-btn" onClick={changeState}>Watch Trailer</h4>
+            <div className="posted-ggg-div">
+               <p>posted</p><p>{currentMovie.posted}</p>
+            </div>
             </div>
                <h2 id="movie-title">{currentMovie.title}</h2>
                

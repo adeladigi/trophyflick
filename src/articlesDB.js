@@ -11,7 +11,13 @@ const articlesDB = [
                 "",
                 "",
                ],
-              
+        headings: [
+                "plot",
+                "cast",
+                "the good",
+                "the bad",
+                "verdict",
+                  ],       
         posted: "10/6/2021",
         author: "JONATHAN DECEMBER"
     },

@@ -188,7 +188,10 @@ iframe {
 
 .trailer-div {
     display: flex;
+    justify-content: space-between;
     color: darkred;
+    min-width: 100%;
+    align-items: center;
 }
 
 .info-div {
@@ -215,6 +218,17 @@ iframe {
 #post-date {
     font-size: 10px;
     letter-spacing: 2px;
+}
+
+.posted-ggg-div {
+    display: flex;
+    flex-direction: row;
+}
+
+.posted-ggg-div p {
+    font-family: 'Bebas Neue', cursive;
+    color: #22577A;
+    margin-right: 8px;
 }
 
 
@@ -341,6 +355,7 @@ iframe {
         padding-bottom: 30px;
         letter-spacing: 1px;
     }
+
 
  
 

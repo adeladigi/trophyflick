@@ -14,6 +14,7 @@ function Body(props){
     img: props.content[0].img, 
     title: props.content[0].title, 
     about: props.content[0].about,
+    headings: props.content[0].headings,
     posted: props.content[0].posted,
     author: props.content[0].author,
     trailer: props.content[0].trailer
@@ -26,6 +27,7 @@ function Body(props){
          img: props.content[0].img, 
          title: props.content[0].title, 
          about: props.content[0].about,
+         headings: props.content[0].headings,
          posted: props.content[0].posted,
          author: props.content[0].author,
          trailer: props.content[0].trailer
