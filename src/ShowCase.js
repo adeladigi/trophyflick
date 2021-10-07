@@ -49,7 +49,7 @@ function ShowCase(props){
              <h3 id="article-title-mini">the good</h3>
              <p id="article-text">{paragraph[2]}</p>
 
-             <h3 id="article-title-mini">the bood</h3>
+             <h3 id="article-title-mini">the bad</h3>
              <p id="article-text">{paragraph[3]}</p>
 
              <h3 id="article-title-mini">verdict</h3>
