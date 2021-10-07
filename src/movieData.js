@@ -1,6 +1,11 @@
 
 
   const movieData =[
+    { img: "https://www.refinery29.com/images/8719419.jpg?crop=2000%2C1051%2Cx0%2Cy257",
+      title: "Doctor Sleep",
+      about: "Struggling with alcoholism, Dan Torrance remains traumatized by the sinister events that occurred at the Overlook Hotel when he was a child. His hope for a peaceful existence soon becomes shattered when he meets Abra, a teen who shares his extrasensory gift of the shine. Together, they form an unlikely alliance to battle the True Knot, a cult whose members try to feed off the shine of innocents to become immortal.",
+      trailer: "https://www.youtube.com/embed/BOzFZxB-8cw"
+    },
     { img: "https://americanprofile.com/wp-content/uploads/2013/04/oblivion_7.jpg",
       title: "Oblivion",
       about: "In the year 2077, Jack Harper (Tom Cruise) works as a security repairman on an Earth left empty and devastated after a war with aliens. Jack has two weeks left before his mission ends and he joins his fellow survivors on a faraway colony. However, Jack's concept of reality comes crashing down after he rescues a beautiful stranger (Olga Kurylenko) from a downed spacecraft. The woman's arrival triggers a chain of events that culminates in Jack's nearly single-handed battle to save mankind.",
