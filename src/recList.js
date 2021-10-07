@@ -1,5 +1,6 @@
 
 const recList = [
+   
    { img: "https://cdn.vox-cdn.com/thumbor/CFBo3ciH3HdFZ7zW4F00HWohnjk=/0x43:1860x1017/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/21973662/1_08izsKCWOghcdIPAZsT2Eg.png",
      title: "Jennifer's Body",
      about: "When a demon takes possession of her, high-school hottie Jennifer (Megan Fox) turns a hungry eye on guys who never stood a chance with her before. While evil Jennifer satisfies her appetite for human flesh with the school's male population, her nerdy friend, Needy (Amanda Seyfried), learns what's happening and vows to put an end to the carnage.",

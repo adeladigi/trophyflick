@@ -8,16 +8,20 @@ const articlesDB = [
                 "Taissa Farmiga stars in The Final Girls  a comedic rift of Friday the 13th dircected by Todd Strauss Schulson. The movie is about a about teen girl named Max played by (Taissa Farmiga),  Who's mother a struggling actress  played by (Malin Akerman) tragically die's in a car accident.  three years after her mother's  death Max and her friends are in a theater watching Camp Blood Bath a 80's horror movie her late mother stared in. While watching the movie a fire occurres, with no way to escape other then going through the screen, Max and her friends cut a pathway into the screen only to end up in the movie themselves.",
                 "In my opinion they choose a perfect cast in order to bring a fun atmosphere to the movie. Adam DeVine was just hilarious in this flim and huge part of the comdeic formula. Thomas Middleditch was also pretty funny and had me laughing  acouple of times during the movie, He dose a great job with his character playing the horror/slasher fan nerd. Taissa Farmiga reminded of Jennifer Love Hewitt in (I Know What You Did Last Summer), As the  shy pertty girl who ends up becoming more confident as the movie gose on. The only flaw I saw was with  Alexander Ludwig's character, Not sure if it was the script or the pertformce but the character was just a bit dull. Nina Dobrev dose a great job playing the classic popular mean girl in a slasher flim. Overall great cast!",
                 "This film also dose a amazing job showcasing the emotional aspects of the mother daurther relationship between Max and Amanda. Exploring what it would be like to see a late loved again, Even if it wasn't really them but just a character they played in a movie. Which definitely made the movie that much more interesting. For the slasher movie fans out there this movie has some brutal yet funny kills scenes. I really enjoyed the  cinematography, Just thought it was really creative how the camera would movie from one character to another during tense moments in the film.",
-                "I flet a few charecters lacked depth and could've beinfited from some charecter building , But besides that this movie has few flaws.",
+                "I flet a few charecters lacked depth and could've beinfited from some charecter building , But otherwise this movie has very few flaws.",
                 "I really enjoyed this movie it  was very fun to watch, great cast, interesting plot and very funny comdeic scenes. This is definitely a must watch scoring  8 out 10!",
                ],
-        headings: [
+     headings: [
                 "plot",
                 "cast",
                 "the good",
                 "the bad",
                 "verdict",
-                  ],       
+                ],
+          pics: [
+                 "https://m.media-amazon.com/images/M/MV5BMjliMzUzZTQtNGM5My00MjlmLWJmMmEtYmQzYmNmMTJkNDY3XkEyXkFqcGdeQXVyODEwMTc2ODQ@._V1_.jpg",
+                 "https://pbs.twimg.com/media/D-I-9LdXYAAk6vs.jpg",
+                ],             
         posted: "10/6/2021",
         author: "JONATHAN DECEMBER"
     },

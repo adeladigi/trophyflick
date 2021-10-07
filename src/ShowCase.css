@@ -277,6 +277,17 @@ iframe {
         padding-bottom: 30px;
     }
 
+    .article-text {
+        margin: 0;
+        font-size: 18px; 
+        color: #F7F6F2;
+        padding: 0px;
+        padding-top: 0px;
+        padding-left: 20px;
+        letter-spacing: 1px;
+        padding-bottom: 30px;
+    }
+
     .author-date-div {
         display: flex;
         flex-direction: row;
@@ -359,6 +370,18 @@ iframe {
         letter-spacing: 1px;
     }
 
+    .article-text {
+        max-width: 600px;
+        margin: auto;
+        font-size: 17px; 
+        
+        color: #F7F6F2;
+        padding: 0px;
+        padding-top: 0px;
+        padding-bottom: 30px;
+        letter-spacing: 1px;
+    }
+
     .posted-ggg-div {
         margin-top: 8px;
     }
@@ -393,6 +416,19 @@ iframe {
 
 
     #article-text {
+        max-width: 600px;
+        margin: 0px;
+        font-size: 20px; 
+        
+        color: #F7F6F2;
+        padding: 0px;
+        padding-top: 0px;
+        padding-left: 20px;
+        padding-bottom: 30px;
+        letter-spacing: 1px;
+    }
+
+    .article-text {
         max-width: 600px;
         margin: 0px;
         font-size: 20px; 

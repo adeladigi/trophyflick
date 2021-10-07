@@ -12,7 +12,7 @@ function Card(props){
    
     
     function sendMovieUp(){
-        props.choseFunc({img: props.src, title: props.title, about: props.about, headings: props.headings, posted: props.posted, author: props.author, trailer: props.trailer})
+        props.choseFunc({img: props.src, title: props.title, about: props.about, headings: props.headings, pics: props.pics, posted: props.posted, author: props.author, trailer: props.trailer})
         
         // area where you construct the chosen obj and send to showcase
     }

@@ -18,6 +18,7 @@ function ShowCase(props){
       title: props.chosen.title,
       about: props.chosen.about,
       headings: props.chosen.headings,
+      pics: props.chosen.pics,
       posted: props.chosen.posted,
       auhtor: props.chosen.author,
       trailer: props.chosen.trailer
@@ -38,7 +39,7 @@ function ShowCase(props){
 
    function createParagraph(paragraph){
       
-
+    
       //<h3 id="article-title-mini">{props.chosen.headings[0]}</h3>
          return(
             <div>
@@ -179,6 +180,8 @@ function ShowCase(props){
                 <img id="article-img" src={currentMovie.img}></img>
                 
                 {createParagraph(currentMovie.about)}
+
+                
 
            </div> 
           
