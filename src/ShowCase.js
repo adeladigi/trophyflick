@@ -37,6 +37,7 @@ function ShowCase(props){
 
 
    function createParagraph(paragraph){
+      
 
       //<h3 id="article-title-mini">{props.chosen.headings[0]}</h3>
          return(
