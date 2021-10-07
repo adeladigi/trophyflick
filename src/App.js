@@ -30,7 +30,7 @@ function App() {
     // setTimeout(() => {
     //   setLoading(false)
     // }, 8000)
-    
+
   }, [])
 
   window.addEventListener("load", function(){
@@ -107,12 +107,15 @@ function App() {
       }else if(searchText.length === 0){
 
         //embeded if statement
-         if(light === false){
+         if(light === false && articleFlag === false){
           setSetEmptyFlag(false)
           setChosenList(movieData)
-         }else{
+         }else if(light === true && articleFlag === false){
           setSetEmptyFlag(false) 
           setChosenList(recList)
+         }else if(articleFlag === true){
+          setSetEmptyFlag(false) 
+          setChosenList(articlesDB)
          }
 
       }else{
