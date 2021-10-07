@@ -4,7 +4,7 @@ const recList = [
      title: "Jennifer's Body",
      about: "When a demon takes possession of her, high-school hottie Jennifer (Megan Fox) turns a hungry eye on guys who never stood a chance with her before. While evil Jennifer satisfies her appetite for human flesh with the school's male population, her nerdy friend, Needy (Amanda Seyfried), learns what's happening and vows to put an end to the carnage.",
      trailer: "https://www.youtube.com/embed/ia38f-pdZGA",
-     posted: "10/6/2021"
+     posted: "10/4/2021"
    },
    {
      img: "https://d279m997dpfwgl.cloudfront.net/wp/2020/03/hunt-4-5e42fb34edb63-1.jpg",
