@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 
 
 //import recList from "./recList";
@@ -9,6 +9,8 @@ import Body from "./Body";
 import movieData from "./movieData";
 import recList from "./recList";
 import articlesDB from "./articlesDB";
+import Loader from "./Loader";
+
 
 
 
@@ -18,6 +20,22 @@ let light = false;
 
 
 function App() {
+
+  const [ loading, setLoading] = useState(false);
+  let loaded = false;
+
+  useEffect(() => {
+    setLoading(true)
+
+    // setTimeout(() => {
+    //   setLoading(false)
+    // }, 8000)
+    
+  }, [])
+
+  window.addEventListener("load", function(){
+    setLoading(false)
+   })
 
 
  
@@ -119,17 +137,35 @@ function App() {
   }
 
 
-  return (
-    <div>
 
-    <NavBar articleFlag={articleFlag} openArticles={openArticles} closeArticles={closeArticles} movieListFunc={mailSelectedList} handleNewFirst={handleNewFirst} />
-     <div className="input-div" >
-      <input className="s-bar"  onInput={searchFunc}  type="text" placeholder="search" content="width=device-width, initial-scale=1, maximum-scale=1" />
-     </div>
-    <Body articleFlag={articleFlag} content={chosenList} listTitle={listTitle} emptyFlag={emptyFlag} firstInList={firstInList} />
+    if(loading === true){
+      return(
 
-    </div>
-  );
+        <div className="loader-div">
+          
+            <Loader loading={loading}/>
+        
+        </div>
+          
+      )
+
+    }else{
+
+      return (
+        <div>
+    
+        <NavBar articleFlag={articleFlag} openArticles={openArticles} closeArticles={closeArticles} movieListFunc={mailSelectedList} handleNewFirst={handleNewFirst} />
+         <div className="input-div" >
+          <input className="s-bar"  onInput={searchFunc}  type="text" placeholder="search" content="width=device-width, initial-scale=1, maximum-scale=1" />
+         </div>
+        <Body articleFlag={articleFlag} content={chosenList} listTitle={listTitle} emptyFlag={emptyFlag} firstInList={firstInList} />
+    
+        </div>
+      );
+
+    }
+
+
 }
 
 export default App;
