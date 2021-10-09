@@ -330,7 +330,9 @@ iframe {
         padding: 0px;
     }
 
- 
+    .social-icons-div {
+        justify-content: flex-start;
+    }
 
 
 }
@@ -465,6 +467,10 @@ iframe {
         padding-left: 20px;
         padding-bottom: 30px;
         letter-spacing: 1px;
+    }
+
+    .social-icons-div {
+        justify-content: flex-start;
     }
 
  
