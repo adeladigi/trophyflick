@@ -232,6 +232,32 @@ iframe {
 
 }
 
+.icons-blueprint {
+    font-size: 30px;
+    margin: 7px;
+}
+
+#twitter-icon {
+    color:#00aced;
+   
+}
+
+#instagram-icon {
+    color: #A12568;
+    
+}
+
+#email-icon {
+    color: #EFEFEF;
+}
+
+.social-icons-div {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+    padding-right: 10px;
+}
+
 
 
 @media (min-width: 768px){
@@ -296,7 +322,7 @@ iframe {
         padding-left: 0px;
     }
 
-    #article-title-mini {
+    .article-title-mini {
         color: #F7F6F2;
         margin: 20px;
         margin-top: 0px;
@@ -354,7 +380,7 @@ iframe {
         letter-spacing: 1px;
     }
 
-    #article-title-mini {
+    .article-title-mini {
         font-size: 27px;
     }
 

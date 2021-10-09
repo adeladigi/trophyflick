@@ -1,6 +1,9 @@
 import React, {useState} from "react";
 
 import "./ShowCase.css";
+import { AiFillTwitterCircle, AiFillInstagram } from 'react-icons/ai';
+import { BsInstagram} from 'react-icons/bs';
+import { MdAttachEmail} from 'react-icons/md';
 
 
 
@@ -168,9 +171,17 @@ function ShowCase(props){
          <div className="article-main-section">
 
            <div className="page">
+              
 
               <div className="article-title-div">
                 <h3 id="article-title">{currentMovie.title}</h3>
+              </div>
+
+              <div className="social-icons-div">
+                <a href="https://twitter.com/TrophyFlick"><AiFillTwitterCircle id="twitter-icon" className="icons-blueprint"/></a>
+                <a href="https://www.instagram.com/trophyflick/"><BsInstagram id="instagram-icon" className="icons-blueprint"/></a>
+                <a href="#"><MdAttachEmail id="email-icon" className="icons-blueprint"/></a>
+                
               </div>
 
               <div className="author-date-div">
