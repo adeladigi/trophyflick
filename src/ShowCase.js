@@ -41,14 +41,25 @@ function ShowCase(props){
 
 
    function createParagraph(paragraph){
+      let key2 = process.env.ADSCENE_KEY;
       
-    
       //<h3 id="article-title-mini">{props.chosen.headings[0]}</h3>
          return(
             <div>
 
              <h3 id="article-title-mini">plot</h3>
              <p id="article-text">{paragraph[0]}</p>
+
+
+             <amp-ad width="100vw" height="320"
+                     type="adsense"
+                     data-ad-client={key2}
+                     data-ad-slot="3110331842"
+                     data-auto-format="rspv"
+                     data-full-width="">
+                  <div overflow=""></div>
+             </amp-ad>
+           
 
              <h3 id="article-title-mini">cast</h3>
              <p id="article-text">{paragraph[1]}</p>
