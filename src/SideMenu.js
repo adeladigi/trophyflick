@@ -48,7 +48,13 @@ function SideMenu(props){
                                         picOne={item.picOne}
                                         picTwo={item.picTwo} 
                                         picThree={item.picThree}  
-                                        choseFunc={passingTitle} 
+                                        choseFunc={passingTitle}
+                                        heading1={item.heading1} 
+                                        heading2={item.heading2}
+                                        heading3={item.heading3}
+                                        heading4={item.heading4}
+                                        heading5={item.heading5}
+                                        heading6={item.heading6}
                                         articleFlag={props.articleFlag}
                                          />)}  
         </div>

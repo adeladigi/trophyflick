@@ -20,6 +20,12 @@ function Body(props){
     picOne: props.content[0].picOne,
     picTwo: props.content[0].picTwo,
     picThree: props.content[0].picThree,
+    heading1: props.content[0].heading1, 
+    heading2: props.content[0].heading2, 
+    heading3: props.content[0].heading3, 
+    heading4: props.content[0].heading4, 
+    heading5: props.content[0].heading5, 
+    heading6: props.content[0].heading6, 
    })
 
    
@@ -37,6 +43,12 @@ function Body(props){
          picOne: props.content[0].picOne,
          picTwo: props.content[0].picTwo,
          picThree: props.content[0].picThree,
+         heading1: props.content[0].heading1, 
+         heading2: props.content[0].heading2, 
+         heading3: props.content[0].heading3, 
+         heading4: props.content[0].heading4, 
+         heading5: props.content[0].heading5, 
+         heading6: props.content[0].heading6, 
       })
       // new api requset with new title
       getISS(props.content[0].title)

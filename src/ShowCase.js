@@ -26,9 +26,15 @@ function ShowCase(props){
       picOne: props.chosen.picOne,
       picTwo: props.chosen.picTwo,
       picThree: props.chosen.picThree,
+      heading1: props.chosen.heading1,
+      heading2: props.chosen.heading2,
+      heading3: props.chosen.heading3,
+      heading4: props.chosen.heading4,
+      heading5: props.chosen.heading5,
+      heading6: props.chosen.heading6,
     } 
     
-    //console.log(props.chosen.picTwo)
+    
    function changeState(){
       if(newState === false){
          setNewState(true)
@@ -52,7 +58,7 @@ function ShowCase(props){
          return(
             <div>
 
-             <h3 id="article-title-mini">plot</h3>
+             <h3 id="article-title-mini">{currentMovie.heading1}</h3>
              <p id="article-text">{paragraph[0]}</p>
 
 
@@ -66,18 +72,18 @@ function ShowCase(props){
              </amp-ad>
            
              <img id="article-img" src={props.chosen.picOne}></img>
-             <h3 id="article-title-mini">cast</h3>
+             <h3 id="article-title-mini">{currentMovie.heading2}</h3>
              <p id="article-text">{paragraph[1]}</p>
 
              <img id="article-img" src={props.chosen.picTwo}></img>
-             <h3 id="article-title-mini">the good</h3>
+             <h3 id="article-title-mini">{currentMovie.heading3}</h3>
              <p id="article-text">{paragraph[2]}</p>
              
              <img id="article-img" src={props.chosen.picThree}></img>
-             <h3 id="article-title-mini">the bad</h3>
+             <h3 id="article-title-mini">{currentMovie.heading4}</h3>
              <p id="article-text">{paragraph[3]}</p>
 
-             <h3 id="article-title-mini">verdict</h3>
+             <h3 id="article-title-mini">{currentMovie.heading5}</h3>
              <p id="article-text">{paragraph[4]}</p>
 
              <p id="article-text">{paragraph[5]}</p>
@@ -214,8 +220,6 @@ function ShowCase(props){
 
                 
              
-                
-
            </div> 
           
 

@@ -22,12 +22,18 @@ function Card(props){
                          picOne: props.picOne,
                          picTwo: props.picTwo,
                          picThree: props.picThree,
+                         heading1: props.heading1,
+                         heading2: props.heading2,
+                         heading3: props.heading3,
+                         heading4: props.heading4,
+                         heading5: props.heading5,
+                         heading6: props.heading6,
                         })
                         
         // area where you construct the chosen obj and send to showcase
     }
     
-    //console.log(props.picTwo)
+    //console.log(props.heading1)
     
    return(
              <div className={articleLight ? "article-card" : "card"}>
