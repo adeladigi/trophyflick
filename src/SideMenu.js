@@ -38,7 +38,19 @@ function SideMenu(props){
         <div className="menu-div">
             <h3>{props.listTitle}</h3>
             <p>{props.posted}</p>
-            {dataList.map(item => <Card key={item.title} src={item.img} title={item.title} about={item.about} posted={item.posted} author={item.author} trailer={item.trailer} choseFunc={passingTitle} articleFlag={props.articleFlag} />)}  
+            {dataList.map(item => <Card key={item.title}
+                                        src={item.img}
+                                        title={item.title}
+                                        about={item.about} 
+                                        posted={item.posted} 
+                                        author={item.author} 
+                                        trailer={item.trailer}
+                                        picOne={item.picOne}
+                                        picTwo={item.picTwo} 
+                                        picThree={item.picThree}  
+                                        choseFunc={passingTitle} 
+                                        articleFlag={props.articleFlag}
+                                         />)}  
         </div>
        )
 

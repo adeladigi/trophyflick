@@ -14,25 +14,29 @@ function Body(props){
     img: props.content[0].img, 
     title: props.content[0].title, 
     about: props.content[0].about,
-    headings: props.content[0].headings,
-    pics: props.content[0].pics,
     posted: props.content[0].posted,
     author: props.content[0].author,
-    trailer: props.content[0].trailer
+    trailer: props.content[0].trailer,
+    picOne: props.content[0].picOne,
+    picTwo: props.content[0].picTwo,
+    picThree: props.content[0].picThree,
    })
 
    
+
+
    useEffect(() => {
       //setting new chosen movie
       setNewChosenMovie({
          img: props.content[0].img, 
          title: props.content[0].title, 
          about: props.content[0].about,
-         headings: props.content[0].headings,
-         pics: props.content[0].pics,
          posted: props.content[0].posted,
          author: props.content[0].author,
-         trailer: props.content[0].trailer
+         trailer: props.content[0].trailer,
+         picOne: props.content[0].picOne,
+         picTwo: props.content[0].picTwo,
+         picThree: props.content[0].picThree,
       })
       // new api requset with new title
       getISS(props.content[0].title)

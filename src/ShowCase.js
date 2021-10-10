@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useEffect, useState} from "react";
 
 import "./ShowCase.css";
 import { AiFillTwitterCircle, AiFillInstagram } from 'react-icons/ai';
@@ -20,16 +20,15 @@ function ShowCase(props){
       img: props.chosen.img,
       title: props.chosen.title,
       about: props.chosen.about,
-      headings: props.chosen.headings,
-      pics: props.chosen.pics,
       posted: props.chosen.posted,
       auhtor: props.chosen.author,
-      trailer: props.chosen.trailer
+      trailer: props.chosen.trailer,
+      picOne: props.chosen.picOne,
+      picTwo: props.chosen.picTwo,
+      picThree: props.chosen.picThree,
     } 
     
-    
-  
-
+    //console.log(props.chosen.picTwo)
    function changeState(){
       if(newState === false){
          setNewState(true)
@@ -38,6 +37,12 @@ function ShowCase(props){
       }
       
    }
+
+   useEffect(() => {
+     
+
+  
+    }, [])
 
 
    function createParagraph(paragraph){
@@ -51,27 +56,31 @@ function ShowCase(props){
              <p id="article-text">{paragraph[0]}</p>
 
 
-             <amp-ad width="100vw" height="320"
+             <amp-ad  width="100vw" height="320"
                      type="adsense"
-                     data-ad-client={key2}
+                     data-ad-client="ca-pub-1027543823238054"
                      data-ad-slot="3110331842"
                      data-auto-format="rspv"
                      data-full-width="">
                   <div overflow=""></div>
              </amp-ad>
            
-
+             <img id="article-img" src={props.chosen.picOne}></img>
              <h3 id="article-title-mini">cast</h3>
              <p id="article-text">{paragraph[1]}</p>
 
+             <img id="article-img" src={props.chosen.picTwo}></img>
              <h3 id="article-title-mini">the good</h3>
              <p id="article-text">{paragraph[2]}</p>
-
+             
+             <img id="article-img" src={props.chosen.picThree}></img>
              <h3 id="article-title-mini">the bad</h3>
              <p id="article-text">{paragraph[3]}</p>
 
              <h3 id="article-title-mini">verdict</h3>
              <p id="article-text">{paragraph[4]}</p>
+
+             <p id="article-text">{paragraph[5]}</p>
 
             </div>
             
@@ -203,6 +212,8 @@ function ShowCase(props){
                 
                 {createParagraph(currentMovie.about)}
 
+                
+             
                 
 
            </div> 
