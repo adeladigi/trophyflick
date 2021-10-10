@@ -198,8 +198,8 @@ function ShowCase(props){
               </div>
 
               <div className="social-icons-div">
-                <a href="https://twitter.com/TrophyFlick"><AiFillTwitterCircle id="twitter-icon" className="icons-blueprint"/></a>
-                <a href="https://www.instagram.com/trophyflick/"><BsInstagram id="instagram-icon" className="icons-blueprint"/></a>
+                <a href="https://twitter.com/TrophyFlick" target="_blank"><AiFillTwitterCircle id="twitter-icon" className="icons-blueprint"/></a>
+                <a href="https://www.instagram.com/trophyflick/" target="_blank"><BsInstagram id="instagram-icon" className="icons-blueprint"/></a>
                 <a href="#"><MdAttachEmail id="email-icon" className="icons-blueprint"/></a>
                 
               </div>
