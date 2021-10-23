@@ -1,6 +1,23 @@
 
+
+
+
+
 const recList = [
-   
+   { 
+     img: "https://www.indiewire.com/wp-content/uploads/2021/09/halloween-kills.jpg",
+     title: "Halloween Kills",
+     about: "Michael Myers is a fictional character from the Halloween series of slasher films. He first appears in 1978 in John Carpenter's Halloween as a young boy who murders his elder sister, Judith Myers. Fifteen years later, he returns home to Haddonfield to murder more teenagers",
+     trailer: "https://www.youtube.com/embed/hL6R3HmQfPc",
+     posted: "10/16/2021"
+   },
+   {
+     img: "https://api.time.com/wp-content/uploads/2016/11/manchester-by-the-sea.jpg",
+     title: "Manchester by the Sea",
+     about: "After the death of his older brother Joe, Lee Chandler (Casey Affleck) is shocked that Joe has made him sole guardian of his teenage nephew Patrick. Taking leave of his job as a janitor in Boston, Lee reluctantly returns to Manchester-by-the-Sea, the fishing village where his working-class family has lived for generations. There, he is forced to deal with a past that separated him from his wife, Randi (Michelle Williams), and the community where he was born and raised.",
+     trailer: "https://www.youtube.com/embed/gsVoD0pTge0",
+     posted: "10/13/2021"
+   },
    { img: "https://cdn.vox-cdn.com/thumbor/CFBo3ciH3HdFZ7zW4F00HWohnjk=/0x43:1860x1017/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/21973662/1_08izsKCWOghcdIPAZsT2Eg.png",
      title: "Jennifer's Body",
      about: "When a demon takes possession of her, high-school hottie Jennifer (Megan Fox) turns a hungry eye on guys who never stood a chance with her before. While evil Jennifer satisfies her appetite for human flesh with the school's male population, her nerdy friend, Needy (Amanda Seyfried), learns what's happening and vows to put an end to the carnage.",
@@ -128,31 +145,36 @@ const recList = [
       trailer: "https://www.youtube.com/embed/BOzFZxB-8cw",
       posted: "7/10/2021"
     },
-    { img: "https://images.mubicdn.net/images/film/3513/cache-10182-1603805271/image-w1280.jpg",
-      title: "Bronson",
-      about: "In this drama based on a true story, there's no one tougher or more brutal in the English penal system than prisoner Michael Peterson, aka Charles Bronson (Tom Hardy). First incarcerated after robbing a jewelry store, the married Bronson is sentenced to seven years. But his incorrigible, savage behavior quickly gets him in trouble with guards, fellow inmates and even a dog. The only place where Bronson can't do any harm is in solitary confinement, where he spends most of his time.",
-      trailer: "https://www.youtube.com/embed/g4PyMY--RnU",
-      posted: "7/7/2021"
+    {
+       img: "https://images.mubicdn.net/images/film/3513/cache-10182-1603805271/image-w1280.jpg",
+       title: "Bronson",
+       about: "In this drama based on a true story, there's no one tougher or more brutal in the English penal system than prisoner Michael Peterson, aka Charles Bronson (Tom Hardy). First incarcerated after robbing a jewelry store, the married Bronson is sentenced to seven years. But his incorrigible, savage behavior quickly gets him in trouble with guards, fellow inmates and even a dog. The only place where Bronson can't do any harm is in solitary confinement, where he spends most of his time.",
+       trailer: "https://www.youtube.com/embed/g4PyMY--RnU",
+       posted: "7/7/2021"
     },
-    { img: "https://flickandmix.files.wordpress.com/2015/04/phone-booth-cover1.jpg?w=1200",
-      title: "Phone Booth",
-      about: "Cynical, smarmy PR man Stu Shepard picks up a ringing phone in a booth in a busy New York street to find a killer on the line. Armed with a high-powered sniper's rifle, the anonymous caller soon proves his prowess and presents Shepard with a choice - convince the police of his story before they shoot him or drop the phone and be shot. His only hope lies in self abasement and facing up to the truths of his life",
-      trailer: "https://www.youtube.com/embed/JiI91igl180",
-      posted: "7/5/2021"
+    {
+       img: "https://flickandmix.files.wordpress.com/2015/04/phone-booth-cover1.jpg?w=1200",
+       title: "Phone Booth",
+       about: "Cynical, smarmy PR man Stu Shepard picks up a ringing phone in a booth in a busy New York street to find a killer on the line. Armed with a high-powered sniper's rifle, the anonymous caller soon proves his prowess and presents Shepard with a choice - convince the police of his story before they shoot him or drop the phone and be shot. His only hope lies in self abasement and facing up to the truths of his life",
+       trailer: "https://www.youtube.com/embed/JiI91igl180",
+       posted: "7/5/2021"
     },
-    { img: "https://m.media-amazon.com/images/M/MV5BNGUzN2NhZDQtZWE5YS00MGY5LWE5ZmItMDVmNDZjNjA3YzE5XkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_.jpg",
-      title: "ATM",
-      about: "A murderous assailant traps three people (Alice Eve, Josh Peck, Brian Geraghty) in a small kiosk containing an automatic teller machine.",
-      trailer: "https://www.youtube.com/embed/sbr2uCMJde8",
-      posted: "7/5/2021"
+    {
+       img: "https://m.media-amazon.com/images/M/MV5BNGUzN2NhZDQtZWE5YS00MGY5LWE5ZmItMDVmNDZjNjA3YzE5XkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_.jpg",
+       title: "ATM",
+       about: "A murderous assailant traps three people (Alice Eve, Josh Peck, Brian Geraghty) in a small kiosk containing an automatic teller machine.",
+       trailer: "https://www.youtube.com/embed/sbr2uCMJde8",
+       posted: "7/5/2021"
     },
-    { img: "https://pyxis.nymag.com/v1/imgs/add/166/74b5b49b6b2e11e5c35b2a0be039816588-04-the-endless.rsocial.w1200.jpg",
+    { 
+      img: "https://pyxis.nymag.com/v1/imgs/add/166/74b5b49b6b2e11e5c35b2a0be039816588-04-the-endless.rsocial.w1200.jpg",
       title: "The Endless",
       about: "Two brothers receive a cryptic video message inspiring them to revisit the UFO death cult they escaped a decade earlier. Hoping to find the closure that they couldn't find as young men, they're forced to reconsider the cult's beliefs when confronted with unexplainable phenomena surrounding the camp. As the members prepare for the coming of a mysterious event, the brothers race to unravel the seemingly impossible truth before their lives become permanently entangled with the cult.",
       trailer: "https://www.youtube.com/embed/reMwL8uYXps",
       posted: "7/2/2021"
     },
-    { img: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwheresthejump.com%2Fwp-content%2Fuploads%2F2015%2F09%2FCube-1.jpg&f=1&nofb=1",
+    { 
+      img: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwheresthejump.com%2Fwp-content%2Fuploads%2F2015%2F09%2FCube-1.jpg&f=1&nofb=1",
       title: "Cube",
       about: "Without remembering how they got there, several strangers awaken in a prison of cubic cells, some of them booby-trapped. There's onetime cop Quentin (Maurice Dean Wint), scientist Holloway (Nicky Guadagni), young math genius Leaven (Nicole de Boer), master of escapes Rennes (Wayne Robson), autistic savant Kazan (Andrew Miller) and architect Worth (David Hewlett), who might have more information on the maze than he lets on. The prisoners must use their combined skills if they are to escape.",
       trailer: "https://www.youtube.com/embed/Esjc0rPj3K4",

@@ -113,6 +113,7 @@ h4:hover {
 
   .article-card h4 {
     padding-left: 4px;
+    min-height: 78px;
   }
 
 

@@ -260,7 +260,6 @@ iframe {
 
 
 
-
 @media (min-width: 768px){
     .main-section {
       margin-bottom: unset;
@@ -422,6 +421,10 @@ iframe {
 /* Second 1024px @ media section*/
 @media (min-width: 1024px){
 
+    .main-section {
+      justify-content: space-around;
+    }
+
     .showcase-div {
         width: 480px;
         height: 520px;
@@ -474,7 +477,7 @@ iframe {
         justify-content: flex-start;
     }
 
- 
+
 
 }
 
@@ -554,6 +557,8 @@ iframe {
     .award-box p {
         margin-top: 0px;
     }
+
+
 
 }
 

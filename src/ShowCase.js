@@ -7,6 +7,7 @@ import { MdAttachEmail} from 'react-icons/md';
 
 
 
+
 let defaultState = false;
 
 function ShowCase(props){
@@ -50,7 +51,7 @@ function ShowCase(props){
   
     }, [])
 
-
+  
    function createParagraph(paragraph){
       let key2 = process.env.ADSCENE_KEY;
       
@@ -188,6 +189,8 @@ function ShowCase(props){
                </div>
                
             </div> 
+
+
          </div>
         )
     }else if(fatty === true){

@@ -6,6 +6,7 @@ import SideMenu from "./SideMenu";
 
 
 
+
 function Body(props){
    // place object from top of the list.
    
@@ -146,10 +147,14 @@ function Body(props){
   
 
    return(
+      <div>
        <div className="body-div">
           <ShowCase articleFlag={props.articleFlag} movie={props.content} chosen={newChosenMovie} cardInfo={dataCard}  />
           <SideMenu articleFlag={props.articleFlag} movie={props.content} mailFunc={iGotMail} listTitle={props.listTitle} emptyFlag={props.emptyFlag}  />
        </div>
+
+      </div>
+
    )
 }
 

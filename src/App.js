@@ -67,8 +67,6 @@ function App() {
 
 
 
-
-
      // Relevancy function
      function getRelevancy(value, searchTerm){
       if(value === searchTerm){
