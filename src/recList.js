@@ -4,6 +4,13 @@
 
 
 const recList = [
+     {
+     img: "https://ichef.bbci.co.uk/news/976/cpsprodpb/79CA/production/_118687113_thewarrens.jpg",
+     title: "The Conjuring",
+     about: "In 1970, paranormal investigators and demonologists Lorraine (Vera Farmiga) and Ed (Patrick Wilson) Warren are summoned to the home of Carolyn (Lili Taylor) and Roger (Ron Livingston) Perron. The Perrons and their five daughters have recently moved into a secluded farmhouse, where a supernatural presence has made itself known. Though the manifestations are relatively benign at first, events soon escalate in horrifying fashion, especially after the Warrens discover the house's macabre history.",
+     trailer: "https://www.youtube.com/embed/k10ETZ41q5o",
+     posted: "10/23/2021"
+   },
    { 
      img: "https://www.indiewire.com/wp-content/uploads/2021/09/halloween-kills.jpg",
      title: "Halloween Kills",
