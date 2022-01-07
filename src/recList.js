@@ -8,7 +8,8 @@ const recList = [
      img: "https://i-viaplay-com.akamaized.net/viaplay-prod/275/804/1489674481-ae1c1b1a2c4d222744f5659731f0c902b8990837.jpg?width=1600&height=900",
      title: "The Autopsy Of Jane Doe",
      about: "A team of father and son coroners investigate the death of a beautiful `Jane Doe'. As they aim to ascertain who she is and how she died they find an increasingly bizarre sequence of clues.",
-     trailer: "https://www.youtube.com/embed/mtTAhXuiRTc"
+     trailer: "https://www.youtube.com/embed/mtTAhXuiRTc",
+     posted: "1/7/2022"
    },
    {
      img: "https://ichef.bbci.co.uk/news/976/cpsprodpb/79CA/production/_118687113_thewarrens.jpg",
