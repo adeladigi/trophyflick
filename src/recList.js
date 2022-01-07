@@ -4,7 +4,13 @@
 
 
 const recList = [
-     {
+   { 
+     img: "https://i-viaplay-com.akamaized.net/viaplay-prod/275/804/1489674481-ae1c1b1a2c4d222744f5659731f0c902b8990837.jpg?width=1600&height=900",
+     title: "The Autopsy Of Jane Doe",
+     about: "A team of father and son coroners investigate the death of a beautiful `Jane Doe'. As they aim to ascertain who she is and how she died they find an increasingly bizarre sequence of clues.",
+     trailer: "https://www.youtube.com/embed/mtTAhXuiRTc"
+   },
+   {
      img: "https://ichef.bbci.co.uk/news/976/cpsprodpb/79CA/production/_118687113_thewarrens.jpg",
      title: "The Conjuring",
      about: "In 1970, paranormal investigators and demonologists Lorraine (Vera Farmiga) and Ed (Patrick Wilson) Warren are summoned to the home of Carolyn (Lili Taylor) and Roger (Ron Livingston) Perron. The Perrons and their five daughters have recently moved into a secluded farmhouse, where a supernatural presence has made itself known. Though the manifestations are relatively benign at first, events soon escalate in horrifying fashion, especially after the Warrens discover the house's macabre history.",
