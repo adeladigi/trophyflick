@@ -8,7 +8,8 @@ const recList = [
      img: "https://bgr.com/wp-content/uploads/2021/08/spider-man-no-way-home-spider-man-trailer.jpg?quality=82&strip=all&w=1440&h=810&crop=1",
      title: "Spider-Man: No Way Home",
      about: "With Spider-Man's identity now revealed, our friendly neighborhood web-slinger is unmasked and no longer able to separate his normal life as Peter Parker from the high stakes of being a superhero. When Peter asks for help from Doctor Strange, the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man.",
-     trailer: "https://www.youtube.com/embed/JfVOs4VSpmA"
+     trailer: "https://www.youtube.com/embed/JfVOs4VSpmA",
+     posted: "1/15/2022"
    },
    { 
      img: "https://i-viaplay-com.akamaized.net/viaplay-prod/275/804/1489674481-ae1c1b1a2c4d222744f5659731f0c902b8990837.jpg?width=1600&height=900",
