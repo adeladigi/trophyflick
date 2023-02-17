@@ -4,7 +4,7 @@
     { img: "https://images-na.ssl-images-amazon.com/images/S/pv-target-images/43aa583cc207dd450117131a6505509692f8413f64ba86791956c708fb4c9671._SX1080_.jpg",
       title: "Memoirs Of A Geisha",
       about: "In the 1920s, 9-year-old Chiyo (Suzuka Ohgo) gets sold to a geisha house. There, she is forced into servitude, receiving nothing in return until the house's ruling hierarchy determines if she is of high enough quality to service the clientele -- men who visit and pay for conversation, dance and song. After rigorous years of training, Chiyo becomes Sayuri (Ziyi Zhang), a geisha of incredible beauty and influence. Life is good for Sayuri, but World War II is about to disrupt the peace.",
-      trailer: "https://www.youtube.com/embed/BOzFZxB-8cw",
+      trailer: "https://www.youtube.com/embed/4L-xlmakQvc",
       posted: "02/7/2023"
     },
     { img: "https://www.refinery29.com/images/8719419.jpg?crop=2000%2C1051%2Cx0%2Cy257",
