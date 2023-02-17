@@ -10,6 +10,12 @@ const recList = [
      trailer: "https://www.youtube.com/embed/y3GLhAumiec",
      posted: "2/17/2023"
    },
+   { img: "https://consequence.net/wp-content/uploads/2019/02/warriors-e1549315454315.jpg?quality=80",
+     title: "The Warriors",
+     about: "A turf battle between New York City street gangs that rages from Coney Island to the Bronx. The Warriors are mistakenly fingered for the killing of a gang leader. Soon they have every gang in the city out to get revenge and they must make their way across the city to their own turf.",
+     trailer: "https://www.youtube.com/embed/--gdB-nnQkU",
+     posted: "2/17/2023"
+   },
    { img: "https://i0.wp.com/fugitives.com/wp-content/uploads/2022/07/ezgif-1-56f8773921.jpg?resize=696%2C391&ssl=1",
      title: "The Black Phone",
      about: "Finney Shaw is a shy but clever 13-year-old boy who's being held in a soundproof basement by a sadistic, masked killer. When a disconnected phone on the wall starts to ring, he soon discovers that he can hear the voices of the murderer's previous victims -- and they are dead set on making sure that what happened to them doesn't happen to Finney",
@@ -22,6 +28,18 @@ const recList = [
      trailer: "https://www.youtube.com/embed/TGqWphOB9io",
      posted: "2/17/2023"
    },
+   { img: "https://i.guim.co.uk/img/media/9ad395fbcc31f8f1870305b2ed01343a4611d034/20_0_860_516/master/860.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=be214c3fefd3070499788b9a361de253",
+     title: "A Scanner Darkly",
+     about: "In the near future, as America virtually loses the war on drugs, Robert Arctor, a narcotics cop in Orange County, Calif., becomes an addict when he goes under cover. He is wooing Donna, a dealer, to ferret out her supplier. At the same time, he receives orders to spy on his housemates, one of whom is suspected of being Donna's biggest customer.",
+     trailer: "https://www.youtube.com/embed/l1-xKcf9Q4s",
+     posted: "2/17/2023"
+   },
+   { img: "https://thisorthatedition.com/wp-content/uploads/2016/05/darkcity-head.jpg",
+     title: "Dark City",
+     about: "John Murdoch (Rufus Sewell) awakens alone in a strange hotel to find that he is wanted for a series of brutal murders. The problem is that he can't remember whether he committed the murders or not. For one brief moment, he is convinced that he has gone completely mad. Murdoch seeks to unravel the twisted riddle of his identity. As he edges closer to solving the mystery, he stumbles upon a fiendish underworld controlled by a group of ominous beings collectively known as the Strangers.",
+     trailer: "https://www.youtube.com/embed/gt9HkO-cGGo",
+     posted: "2/17/2023"
+  },
    { 
      img: "https://i-viaplay-com.akamaized.net/viaplay-prod/275/804/1489674481-ae1c1b1a2c4d222744f5659731f0c902b8990837.jpg?width=1600&height=900",
      title: "The Autopsy Of Jane Doe",
