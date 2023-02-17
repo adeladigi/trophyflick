@@ -57,7 +57,7 @@ const recList = [
      trailer: "https://www.youtube.com/embed/sowGYbxTPgU",
      posted: "10/3/2021"
    },
-   { img: "https://nerdist.com/wp-content/uploads/2021/08/The-FInal-Girls-1.jpg",
+   { img: "https://viewerscommentary.files.wordpress.com/2016/10/the-final-girls-angela-trimbur-malin-c3a5kerman-tory-n-thompson-adam-devine-e1476519833705.jpg",
    title: "The Final Girls",
    about: "Max, recently orphaned, goes to see a screening of a B-horror movie that her mother made 20 years earlier. When Max and her friends find themselves in the world of the film itself, they must apply their knowledge of horror tropes to survive.",
    trailer: "https://www.youtube.com/embed/zreNh78kTjg",
@@ -75,7 +75,7 @@ const recList = [
    trailer: "https://www.youtube.com/embed/QG7cWYyNN8I",
    posted: "9/25/2021"
    },
-   { img: "http://basementrejects.com/wp-content/uploads/2021/04/willys-wonderland-2021-creatures-nic-cage-review.jpg",
+   { img: "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2021%2F02%2F17%2FWillys_Wonderland_2.jpg",
    title: "Willy's Wonderland",
    about: "When his car breaks down, a quiet loner agrees to clean an abandoned family fun center in exchange for repairs. He soon finds himself waging war against possessed animatronic mascots while trapped inside Willy's Wonderland.",
    trailer: "https://www.youtube.com/embed/0v27rfaoB2Y",
@@ -87,7 +87,7 @@ const recList = [
   trailer: "https://www.youtube.com/embed/0VGD_jLyE9Y",
   posted: "9/24/2021"
   },
-  { img: "https://cdn.onebauer.media/one/media/5f3a/ad17/1e87/c269/5e13/8fe6/memento-1.jpg?format=jpg&quality=80&width=960&height=540&ratio=16-9&resize=aspectfill",
+  { img: "https://cdn.theatlantic.com/thumbor/JuRr5O23Oqvdz8KgPM68BbGqxQ8=/79x44:1843x1036/1600x900/media/img/mt/2016/03/memento/original.jpg",
   title: "Memento",
   about: "Leonard (Guy Pearce) is tracking down the man who raped and murdered his wife. The difficulty, however, of locating his wife's killer is compounded by the fact that he suffers from a rare, untreatable form of memory loss. Although he can recall details of life before his accident, Leonard cannot remember what happened fifteen minutes ago, where he's going, or why.",
   trailer: "https://www.youtube.com/embed/4CV41hoyS8A",
@@ -117,7 +117,7 @@ const recList = [
       trailer: "https://www.youtube.com/embed/RQjEbkV-9ZM",
       posted: "8/1/2021"
     },
-    { img: "https://www.themearound.com/wp-content/uploads/2021/06/1.jpg",
+    { img: "https://media.criticalhit.net/2021/05/The-House-Next-Door-1.jpg",
       title: "The House Next Door: Meet the Blacks 2",
       about: "After surviving a night of terror on the West Coast, author Carl Black moves his family back to his childhood home in Chicago. His quest to find peace and quiet takes an unexpected turn when he meets the eccentric new homeowner next door. Convinced that the man is a vampire, Carl and his oddball neighbors join forces to save themselves from the bloodsucking undead.",
       trailer: "https://www.youtube.com/embed/U1rmjEn6wnQ",
