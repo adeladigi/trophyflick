@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/trophyflick/static/css/main.f1687b27.css",
+    "main.js": "/trophyflick/static/js/main.e10b494c.js",
+    "index.html": "/trophyflick/index.html",
+    "main.f1687b27.css.map": "/trophyflick/static/css/main.f1687b27.css.map",
+    "main.e10b494c.js.map": "/trophyflick/static/js/main.e10b494c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f1687b27.css",
+    "static/js/main.e10b494c.js"
+  ]
+}
