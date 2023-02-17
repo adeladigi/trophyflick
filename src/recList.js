@@ -4,12 +4,17 @@
 
 
 const recList = [
-   {
-     img: "https://bgr.com/wp-content/uploads/2021/08/spider-man-no-way-home-spider-man-trailer.jpg?quality=82&strip=all&w=1440&h=810&crop=1",
-     title: "Spider-Man: No Way Home",
-     about: "With Spider-Man's identity now revealed, our friendly neighborhood web-slinger is unmasked and no longer able to separate his normal life as Peter Parker from the high stakes of being a superhero. When Peter asks for help from Doctor Strange, the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man.",
-     trailer: "https://www.youtube.com/embed/JfVOs4VSpmA",
-     posted: "1/15/2022"
+   { img: "https://i0.wp.com/fugitives.com/wp-content/uploads/2022/07/ezgif-1-56f8773921.jpg?resize=696%2C391&ssl=1",
+     title: "The Black Phone",
+     about: "Finney Shaw is a shy but clever 13-year-old boy who's being held in a soundproof basement by a sadistic, masked killer. When a disconnected phone on the wall starts to ring, he soon discovers that he can hear the voices of the murderer's previous victims -- and they are dead set on making sure that what happened to them doesn't happen to Finney",
+     trailer: "https://www.youtube.com/embed/3eGP6im8AZA",
+     posted: "2/17/2023"
+   },
+   { img: "https://www.hollywoodreporter.com/wp-content/uploads/2022/12/Print-Issue-38-biz_screen-Puss-In-Boots-MAIN-Publicity-H-2022.jpg?w=1024",
+     title: "Puss in Boots: The Last Wishs",
+     about: "Puss in Boots discovers that his passion for adventure has taken its toll when he learns that he has burnt through eight of his nine lives. Puss sets out on an epic journey to find the mythical Last Wish and restore his nine lives.",
+     trailer: "https://www.youtube.com/embed/TGqWphOB9io",
+     posted: "2/17/2023"
    },
    { 
      img: "https://i-viaplay-com.akamaized.net/viaplay-prod/275/804/1489674481-ae1c1b1a2c4d222744f5659731f0c902b8990837.jpg?width=1600&height=900",
