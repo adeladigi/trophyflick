@@ -1,6 +1,12 @@
 
 
   const movieData =[
+    { img: "https://images.squarespace-cdn.com/content/v1/57e05e534402434aa0f846c2/1510249900033-H8CYCSV8OO03IOPEKOGH/MV5BYzQ2NGEyNzMtYWIyNi00YjExLWI2MzYtN2NmNmYwZjU1N2FmXkEyXkFqcGdeQXVyNDAxOTExNTM%40._V1_.jpg",
+      title: "No Country for Old Men",
+      about: "While out hunting, Llewelyn Moss (Josh Brolin) finds the grisly aftermath of a drug deal. Though he knows better, he cannot resist the cash left behind and takes it with him. The hunter becomes the hunted when a merciless killer named Chigurh (Javier Bardem) picks up his trail. Also looking for Moss is Sheriff Bell (Tommy Lee Jones), an aging lawman who reflects on a changing world and a dark secret of his own, as he tries to find and protect Moss.",
+      trailer: "https://www.youtube.com/embed/BqMdQBox15s",
+      posted: "02/7/2023"
+    },
     { img: "https://images-na.ssl-images-amazon.com/images/S/pv-target-images/43aa583cc207dd450117131a6505509692f8413f64ba86791956c708fb4c9671._SX1080_.jpg",
       title: "Memoirs Of A Geisha",
       about: "In the 1920s, 9-year-old Chiyo (Suzuka Ohgo) gets sold to a geisha house. There, she is forced into servitude, receiving nothing in return until the house's ruling hierarchy determines if she is of high enough quality to service the clientele -- men who visit and pay for conversation, dance and song. After rigorous years of training, Chiyo becomes Sayuri (Ziyi Zhang), a geisha of incredible beauty and influence. Life is good for Sayuri, but World War II is about to disrupt the peace.",
