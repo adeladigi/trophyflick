@@ -43,13 +43,13 @@
       trailer: "https://www.youtube.com/embed/BFwGqLa_oAo",
       posted: "8/5/2021"
     },
-    { img: "https://theplaylist.net/wp-content/uploads/2018/04/Edge-of-Tomorrow-Tom-Cruise-Emily-Blunt-sequel.jpg",
+    { img: "https://s.abcnews.com/images/Entertainment/AP_edge_of_tomorrow_jef_140606_16x9_1600.jpg",
       title: "Edge Of Tomorrow",
       about: "When Earth falls under attack from invincible aliens, no military unit in the world is able to beat them. Maj. William Cage (Tom Cruise), an officer who has never seen combat, is assigned to a suicide mission. Killed within moments, Cage finds himself thrown into a time loop, in which he relives the same brutal fight -- and his death -- over and over again. However, Cage's fighting skills improve with each encore, bringing him and a comrade (Emily Blunt) ever closer to defeating the aliens.",
       trailer: "https://www.youtube.com/embed/vw61gCe2oqI",
       posted: "8/2/2021" 
     },
-    { img: "https://cdn.onebauer.media/one/empire-tmdb/films/157336/images/xu9zaAevzQ5nnrsXN6JcahLnG4i.jpg?format=jpg&quality=80&width=850&ratio=16-9&resize=aspectfill",
+    { img: "https://api.time.com/wp-content/uploads/2014/10/interstellar-01.jpg",
       title: "Interstellar",
       about: "In Earth's future, a global crop blight and second Dust Bowl are slowly rendering the planet uninhabitable. Professor Brand (Michael Caine), a brilliant NASA physicist, is working on plans to save mankind by transporting Earth's population to a new home via a wormhole. But first, Brand must send former NASA pilot Cooper (Matthew McConaughey) and a team of researchers through the wormhole and across the galaxy to find out which of three planets could be mankind's new home.",
       trailer: "https://www.youtube.com/embed/Lm8p5rlrSkY",
@@ -67,7 +67,7 @@
       trailer: "https://www.youtube.com/embed/I8WfXdxQ0Cw",
       posted: "7/15/2021"
     },
-    { img: "https://cdn.onebauer.media/one/empire-tmdb/films/280/images/d9AqtruwS8nljKjL5aYzM42hQJr.jpg?format=jpg&quality=80&width=960&height=540&ratio=16-9&resize=aspectfill",
+    { img: "https://images.amcnetworks.com/ifccenter.com/wp-content/uploads/2019/12/terminator-2-linda-hamilton.jpg",
       title: "Terminator 2",
       about: "In this sequel set eleven years after The Terminator, young John Connor (Edward Furlong), the key to civilization's victory over a future robot uprising, is the target of the shape-shifting T-1000 (Robert Patrick), a Terminator sent from the future to kill him. Another Terminator, the revamped T-800 (Arnold Schwarzenegger), has been sent back to protect the boy. As John and his mother (Linda Hamilton) go on the run with the T-800, the boy forms an unexpected bond with the robot.",
       trailer: "https://www.youtube.com/embed/XPtVZ69lomk",
@@ -145,7 +145,7 @@
      trailer: "https://www.youtube.com/embed/l13yPhimE3o",
      posted: "7/2/2021"
     },
-    { img: "https://www.comingsoon.net/assets/uploads/2021/04/american-psycho-bale-e1619203825116-1280x720.png",
+    { img: "https://www.slashfilm.com/img/gallery/why-sourcing-props-for-american-psycho-was-a-major-struggle/l-intro-1652454912.jpg",
       title: "American Psycho",
       about: "American Psycho is a 2000 American satirical horror film co-written and directed by Mary Harron, based on Bret Easton Ellis's 1991 novel of the same name.",
       trailer: "https://www.youtube.com/embed/81mibtQWWBg",
@@ -259,7 +259,7 @@
       trailer: "https://www.youtube.com/embed/6EugG5ayMfs",
       posted: "6/10/2021"
     },
-    { img: "https://cdn.onebauer.media/one/empire-tmdb/films/2034/images/A1S9fBzc4Wepc6onnCd9eVR2FLp.jpg?format=jpg&quality=80&width=960&height=540&ratio=16-9&resize=aspectfill",
+    { img: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ffilm-grab.com%2Fwp-content%2Fuploads%2Fphoto-gallery%2FTraining_Day_006.jpg%3Fbwg%3D1569599403&f=1&nofb=1&ipt=127813124e911143e477913a643867ebd4f83d3c3699ce18e846256de3852990&ipo=images",
       title: "Training Day",
       about: "Police drama about a veteran officer who escorts a rookie on his first day with the LAPD's tough inner-city narcotics unit. Training Day is a blistering action drama that asks the audience to decide what is necessary, what is heroic and what crosses the line in the harrowing gray zone of fighting urban crime. Does law-abiding law enforcement come at the expense of justice and public safety? If so, do we demand safe streets at any cost?",
       trailer: "https://www.youtube.com/embed/CKxKB3IFdIs",
@@ -403,7 +403,7 @@
        trailer: "https://www.youtube.com/embed/6WCKJ7KaIZY",
        posted: "6/2/2021"
      },
-     { img: "https://d2e111jq13me73.cloudfront.net/sites/default/files/styles/share_link_image_large/public/screenshots/csm-movie/the-prestige-ss1.jpg?itok=kGYbWv9_",
+     { img: "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fi.imgur.com%2Fn8jvUTo.png&f=1&nofb=1&ipt=61d2a6e9209489d2cd4bba5f609178dceae32641207b639c3543730df4982917&ipo=images",
        title: "The Prestige",
        about: "Period thriller set in Edwardian London where two rival magicians, partners until the tragic death of an assistant during a show, feud bitterly after one of them performs the ultimate magic trick - teleportation. His rival tries desperately to uncover the secret of his routine, experimenting with dangerous new science as his quest takes him to the brink of insanity and jeopardises the lives of everyone around the pair.",
        trailer: "https://www.youtube.com/embed/RLtaA9fFNXU",
