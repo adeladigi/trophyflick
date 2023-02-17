@@ -4,6 +4,12 @@
 
 
 const recList = [
+   { img: "https://static01.nyt.com/images/2019/01/25/arts/25io/merlin_149493936_dbf13c6c-8b81-45f4-932d-f8ae88772797-superJumbo.jpg",
+     title: "IO",
+     about: "In a post-apocalyptic time, the earth has been rendered toxic, and most of humanity has abandoned the planet and colonised one of Jupiter's moons, IO. But young scientist Sam Walden has stayed behind and dedicated herself to finding a way for human beings to survive on Earth. After sending out a radio transmission to see if she can locate anyone else, a man named Micah arrives. He believes there is no hope of survival and intends to take the final shuttle to IO in 48 hours.",
+     trailer: "https://www.youtube.com/embed/y3GLhAumiec",
+     posted: "2/17/2023"
+   },
    { img: "https://i0.wp.com/fugitives.com/wp-content/uploads/2022/07/ezgif-1-56f8773921.jpg?resize=696%2C391&ssl=1",
      title: "The Black Phone",
      about: "Finney Shaw is a shy but clever 13-year-old boy who's being held in a soundproof basement by a sadistic, masked killer. When a disconnected phone on the wall starts to ring, he soon discovers that he can hear the voices of the murderer's previous victims -- and they are dead set on making sure that what happened to them doesn't happen to Finney",
@@ -209,11 +215,14 @@ const recList = [
 
 ]
 
-//  { img: "",
-//    title: "",
-//    about: "",
-//    trailer: ""
-//  },
+
+
+// { img: "",
+// title: "",
+// about: "",
+// trailer: "",
+// posted: ""
+// },
 
 
 export default recList;
