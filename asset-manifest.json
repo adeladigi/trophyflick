@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/trophyflick/static/css/main.b572c568.css",
-    "main.js": "/trophyflick/static/js/main.e72b3499.js",
+    "main.js": "/trophyflick/static/js/main.a3703c9c.js",
     "index.html": "/trophyflick/index.html",
     "main.b572c568.css.map": "/trophyflick/static/css/main.b572c568.css.map",
-    "main.e72b3499.js.map": "/trophyflick/static/js/main.e72b3499.js.map"
+    "main.a3703c9c.js.map": "/trophyflick/static/js/main.a3703c9c.js.map"
   },
   "entrypoints": [
     "static/css/main.b572c568.css",
-    "static/js/main.e72b3499.js"
+    "static/js/main.a3703c9c.js"
   ]
 }
